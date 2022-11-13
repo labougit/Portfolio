@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
+  <link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" />
+  <updated>2022-11-12T19:37:31-05:00</updated>
+  <id>http://0.0.0.0:4000/</id>
+
+  
+    <title type="html">Luke Abougit</title>
+  
+
+  
+    <subtitle>Hello, I am a computer engineering student pursuing a double degree in computer science at ESIR and in video games at UQAC in Canada. I intend to be a future Software Engineering 3D Digital Imaging. I am passionate about 3d engineering, technical art, game design, image processing and VR.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Project 3</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 3" />
+      <published>2022-11-10T00:00:00-05:00</published>
+      <updated>2022-11-10T00:00:00-05:00</updated>
+      <id>http://0.0.0.0:4000/project-3</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 1</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 1" />
+      <published>2014-07-18T00:00:00-04:00</published>
+      <updated>2014-07-18T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-1</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 2</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 2" />
+      <published>2014-07-17T00:00:00-04:00</published>
+      <updated>2014-07-17T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-2</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 9</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 9" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%209</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 8</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 8" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%208</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 7</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 7" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%207</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 6</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 6" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%206</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 5</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 5" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%205</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 4</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 4" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%204</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6 copy 3</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Project 6 copy 3" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://0.0.0.0:4000/project-6%20copy%203</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

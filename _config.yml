@@ -1,0 +1,67 @@
+# Site settings
+title: Luke Abougit
+email: abougitluke@gmail.com
+url: https://github.com/jeromelachaud/freelancer-theme
+description: "Hello, I am a computer engineering student pursuing a double degree in computer science at ESIR and in video games at UQAC in Canada. I intend to be a future Software Engineering 3D Digital Imaging. I am passionate about 3d engineering, technical art, game design, image processing and VR."
+keywords: "your keywords, separated by commas"
+skills: " 3d engineering - Technical art - Game design - Image processing - VR - Graphic Artist - AI - DeepLearning"
+meta_author: LastName FirstName
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 233140 #18bc9c
+  primary-rgb: "0,0,0" #"128,179,255"
+  secondary: 0d0d0d #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Luke Abougit
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: artstation
+    url: https://labougit.artstation.com/
+  - title: linkedin
+    url: https://www.linkedin.com/in/luke-abougit-a377ba191/
+  - title: github
+    url: https://github.com/labougit
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 2477 rue de Langelier
+  - line: Saguenay, CA G7S5B1
+
+# Credits content
+credits: ' Contact me, I will be happy to hear from you! '
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
