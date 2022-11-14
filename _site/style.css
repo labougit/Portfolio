@@ -90,7 +90,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #233140;
+    background: url(/img/portfolio/i_m.jpg) center no-repeat;
 }
 
 header .container {
