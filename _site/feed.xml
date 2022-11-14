@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-11-13T21:10:51-05:00</updated>
+  <updated>2022-11-13T21:12:38-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,12 +20,70 @@
   
   
     <entry>
-      <title type="html">Project 3</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 3" />
-      <published>2022-11-10T00:00:00-05:00</published>
-      <updated>2022-11-10T00:00:00-05:00</updated>
-      <id>http://localhost:4000/project-3</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+      <title type="html">Olga</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Olga" />
+      <published>2022-10-01T00:00:00-04:00</published>
+      <updated>2022-10-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/OLGA-</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;h2 id=&quot;video-game-creation-process&quot;&gt;Video game creation process&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In the production of this video game, we follow several processes leading to the realization of OLGA.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Video Game Concept Paper&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;Game Design Document&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;Structure of several production sprints for the realization of Video games&lt;br /&gt;&lt;/li&gt;
+    &lt;li&gt;Final test of the game and presentation
+&lt;br /&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;synopsis&quot;&gt;Synopsis&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Olga (Ольга) is a very young girl who looks very fulfilled. She comes from a loving and quite classic family, she lives in a warm house and she lacks nothing. Like all young children of her age, every day Olga discovers, learns and experiments, she experiences strong emotions and develops fears. At night, Olga finds in her dreams the elements that marked her during her day, and unfortunately, she finds her fears in her nightmares…&lt;br /&gt;
+Do you think it’s normal for children to have trouble telling the difference between their imagination and the real world? However, Olga grows up and she understands that her nightmares are real threats to her. Strange curse inherited from her ancestors, Olga must fight to survive her nightmares which can really attack her.&lt;br /&gt;
+Dark, horrifying and deformed decors, bloodthirsty creatures, gore and disordered atmosphere, permanent feeling of anguish, this is what awaits Olga in her nightmares. She faces her worst fears during the night. To survive, Olga will have to adapt her daily life and make the right choices to prepare for the worst during her nightmares. Of course, she shouldn’t make them worse by developing new fears…&lt;br /&gt;
+Olga’s bad dreams will not abruptly awaken her from her slumber but rather threaten to grip her forever in terror…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;goal-of-the-game&quot;&gt;Goal of the game&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The player must overcome his fears during his nightmares, to become stronger and overcome the curse that falls on his family.&lt;br /&gt;
+The player can fail in the face of certain fears, which can complicate his progress. However, he must necessarily overcome his greatest fears.&lt;br /&gt;
+The game is linear and goes through different periods of the main player’s life. The player must overcome each main fear to finish the game and can only lose to 3 intermediate nightmares.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;col-dark-8 col-dark-offset-2 text-center&quot;&gt;
+&lt;a href=&quot;/img/portfolio/olga_dc.pdf&quot; button=&quot;&quot; type=&quot;button&quot; class=&quot;fa fa-download&quot;&gt;
+          Document de concept
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;col-dark-8 col-dark-offset-2 text-center&quot;&gt;
+&lt;a href=&quot;/img/portfolio/olga_gdd.pdf&quot; button=&quot;&quot; type=&quot;button&quot; class=&quot;fa fa-download&quot;&gt;
+          GDD
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;game-development-phase&quot;&gt;Game development phase&lt;/h3&gt;
+&lt;h4 id=&quot;development-of-the-environment&quot;&gt;Development of the environment&lt;/h4&gt;
+&lt;blockquote&gt;
+
+  &lt;p&gt;I built the whole house to make it static and usable. The elements of the house were imported from the Epic Games asset. The architecture of the house was done manually.&lt;br /&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Screen of this house&lt;/em&gt;
+&lt;img src=&quot;../img/portfolio/i_olga_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_olga_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_olga_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_olga_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_olga_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;development-of-the-gameplay&quot;&gt;Development of the gameplay&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In progresss…&lt;/p&gt;
+&lt;/blockquote&gt;</content>
 
       
       
@@ -40,7 +98,242 @@
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Art work" />
+      
+
+      
+
+      
+        <summary type="html">Video game creation process In the production of this video game, we follow several processes leading to the realization of OLGA. Video Game Concept Paper Game Design Document Structure of several production sprints for the realization of Video games Final test of the game and presentation</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project Metahumans Unreal Engine 5</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project Metahumans Unreal Engine 5" />
+      <published>2022-09-15T00:00:00-04:00</published>
+      <updated>2022-09-15T00:00:00-04:00</updated>
+      <id>http://localhost:4000/project-MetaHumans-Unreal-Engine-5</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;h2 id=&quot;metahumans-project&quot;&gt;MetaHuman’s project&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport.
+This challenge involves the generation of a large dataset in photorealistic video format usable by AI. 
+&lt;br /&gt;
+&lt;br /&gt;
+The goal is to create a tool on UnrealEngine5 to create videos of metahumans according to these criteria:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Realistic environment&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Flexible and understandable facial animation&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Changing scenery&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Tool generating metaHumans animations&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;my-role&quot;&gt;My role&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;First my role in this project was to build a photorealistic environment. I built the entire asset there on the game engine. Then it was a question of adding the lights to make the scene lively and realistic.&lt;br /&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Environment creation:&lt;/em&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_meta_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_meta_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_meta_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_meta_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Then for the import of the metaHuman it was a question of applying an animation to it. For this I linked the animation of a mixamo dummy to the metaHuman dummy.&lt;br /&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;MetaHuman’s animation:&lt;/em&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/v_meta_step2.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Then my role is to provide tools to switch cameras in the scene. And to make a touch system that changes the texture of the environment’s materials in real time&lt;br /&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Switch of camera:&lt;/em&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../img/portfolio/v_meta_step3.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;em&gt;Changing of texturing in real time:&lt;/em&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../img/portfolio/v_meta_step4.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;the-project-is-still-in-progress&quot;&gt;The project is still in progress…&lt;/h3&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Computer Science" />
+      
+
+      
+
+      
+        <summary type="html">MetaHuman’s project This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport. This challenge involves the generation of a large dataset in photorealistic video format usable by AI. The goal is to create a tool on UnrealEngine5 to create videos of metahumans according to these criteria: Realistic environment Flexible and understandable facial animation Changing scenery Tool generating metaHumans animations</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Medieval Escape Game</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Medieval Escape Game" />
+      <published>2022-06-01T00:00:00-04:00</published>
+      <updated>2022-06-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/Medieval-Escape-Game</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;h2 id=&quot;project-escape-game&quot;&gt;Project Escape Game&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This project was carried out as part of my engineering training. The theme of the video games is: &lt;em&gt;Escape game&lt;/em&gt;. This escape game was made with my friend &lt;em&gt;Hugo Lammens&lt;/em&gt; with Unity.
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;requirement-and-inspiration-of-the-universe&quot;&gt;requirement and inspiration of the universe&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We wanted to meet these different requirements:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Escape game including 3 rooms&lt;/li&gt;
+    &lt;li&gt;Progressive complexity of the puzzles to solve&lt;/li&gt;
+    &lt;li&gt;Progressive immersion in a medieval universe&lt;/li&gt;
+    &lt;li&gt;May the last room be majestic&lt;/li&gt;
+    &lt;li&gt;Each room had to have its own identity and uniqueness&lt;/li&gt;
+    &lt;li&gt;That the puzzles are based on observation and research&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;creation-of-the-escape-game-universe&quot;&gt;Creation of the escape game universe&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The environment was created entirely on an apple graphic tablet. The assets were built by hand. The textures have also been designed to build certain puzzles
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;em&gt;Environment creation:&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;First room:&lt;/em&gt;
+&lt;img src=&quot;../img/portfolio/i_escape_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_escape_step6.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Second room:&lt;/em&gt;
+&lt;img src=&quot;../img/portfolio/i_escape_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_escape_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Third room:&lt;/em&gt;
+&lt;img src=&quot;../img/portfolio/i_escape_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_escape_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;player-ability&quot;&gt;player ability&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The player can move, interact with external elements:&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Drawer opening&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Element Destruction&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Code interaction for opening a door&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Catch and move objects&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Open door&lt;/em&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;escape-game-player-part&quot;&gt;Escape game player part&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/labougit/EscapeGame&quot;&gt;
+GitHub link
+&lt;/a&gt;
+&lt;img src=&quot;../img/portfolio/v_escape_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Vidéo Game" />
+      
+
+      
+
+      
+        <summary type="html">Project Escape Game This project was carried out as part of my engineering training. The theme of the video games is: Escape game. This escape game was made with my friend Hugo Lammens with Unity.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Aux Frontières Des Possibles</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Aux Frontières Des Possibles" />
+      <published>2020-11-01T00:00:00-04:00</published>
+      <updated>2020-11-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/Aux-Fronti%C3%A8res-des-Possibles</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;img src=&quot;../img/portfolio/i_bd_step2.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step3.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step1.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step4.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step5.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step6.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step7.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step8.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;../img/portfolio/i_bd_step9.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Art work" />
       
 
       
@@ -54,12 +347,13 @@
     </entry>
   
     <entry>
-      <title type="html">Project 1</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 1" />
-      <published>2014-07-18T00:00:00-04:00</published>
-      <updated>2014-07-18T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-1</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+      <title type="html">Project 6 copy 10</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 10" />
+      <published>2014-07-15T00:00:00-04:00</published>
+      <updated>2014-07-15T00:00:00-04:00</updated>
+      <id>http://localhost:4000/project-6%20copy%2010</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;h3 id=&quot;mon-deuxieme-titre&quot;&gt;Mon deuxieme Titre&lt;/h3&gt;
+&lt;p&gt;blabla&lt;/p&gt;</content>
 
       
       
@@ -80,41 +374,7 @@
       
 
       
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 2</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 2" />
-      <published>2014-07-17T00:00:00-04:00</published>
-      <updated>2014-07-17T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-2</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
+        <summary type="html">Mon deuxieme Titre blabla</summary>
       
 
       
@@ -263,74 +523,6 @@
       <published>2014-07-15T00:00:00-04:00</published>
       <updated>2014-07-15T00:00:00-04:00</updated>
       <id>http://localhost:4000/project-6%20copy%205</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 4</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 4" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%204</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 3</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 3" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%203</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
