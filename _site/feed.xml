@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-11-13T21:12:38-05:00</updated>
+  <updated>2022-11-13T21:38:39-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -139,7 +139,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Environment creation:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;../img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot; /img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;img src=&quot;../img/portfolio/i_meta_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;img src=&quot;../img/portfolio/i_meta_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;img src=&quot;../img/portfolio/i_meta_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;

@@ -26,7 +26,7 @@ This challenge involves the generation of a large dataset in photorealistic vide
 >First my role in this project was to build a photorealistic environment. I built the entire asset there on the game engine. Then it was a question of adding the lights to make the scene lively and realistic.<br/>
 >>_Environment creation:_
 <br/>
-<img src = "../img/portfolio/i_meta_step1.png " class = "img-responsive" alt = "Online Training">
+<img src = " /img/portfolio/i_meta_step1.png " class = "img-responsive" alt = "Online Training">
 <img src = "../img/portfolio/i_meta_step2.png " class = "img-responsive" alt = "Online Training">
 <img src = "../img/portfolio/i_meta_step3.png " class = "img-responsive" alt = "Online Training">
 <img src = "../img/portfolio/i_meta_step4.png " class = "img-responsive" alt = "Online Training">
