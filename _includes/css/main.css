@@ -83,12 +83,17 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: url({{ "/img/portfolio/i_m.jpg" | relative_url }}) no-repeat;
+    background: url({{ "/img/portfolio/i_m.jpg" | relative_url }}) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
 }
 
 header .container {
-    max-width: 100%;
-    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 header img {
@@ -111,13 +116,6 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-
-    #header {
-        width: 100%;
-            height: auto;
-            background-size: 100% auto
-    }
-    
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;

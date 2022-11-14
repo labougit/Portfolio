@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-11-13T22:28:46-05:00</updated>
+  <updated>2022-11-13T22:39:01-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -310,7 +310,7 @@ GitHub link
       <published>2020-11-01T00:00:00-04:00</published>
       <updated>2020-11-01T00:00:00-04:00</updated>
       <id>http://localhost:4000/Aux-Fronti%C3%A8res-des-Possibles</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&amp;lt;img src =  /img/portfolio/i_bd_step2.jpg = “img-responsive” alt = “Online Training”&amp;gt;
+      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;img src=&quot;/img/portfolio/i_bd_step2.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;img src=&quot;/img/portfolio/i_bd_step3.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;img src=&quot;/img/portfolio/i_bd_step1.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;img src=&quot;/img/portfolio/i_bd_step4.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
@@ -339,7 +339,7 @@ GitHub link
       
 
       
-        <summary type="html">&amp;lt;img src = /img/portfolio/i_bd_step2.jpg = “img-responsive” alt = “Online Training”&amp;gt;</summary>
+        <summary type="html"></summary>
       
 
       
