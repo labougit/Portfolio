@@ -90,7 +90,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: url(/img/portfolio/i_m.jpg) center;
+    background: url(/img/portfolio/f3.jpg) center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -106,7 +106,6 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    
 }
 
 header .intro-text .name {

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-11-13T22:47:58-05:00</updated>
+  <updated>2022-11-13T23:18:59-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -139,11 +139,11 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Environment creation:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot; /img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_meta_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_meta_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_meta_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_meta_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_meta_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_meta_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_meta_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_meta_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -152,8 +152,8 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;MetaHuman’s animation:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;../img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/v_meta_step2.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/v_meta_step2.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -162,10 +162,10 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Switch of camera:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;../img/portfolio/v_meta_step3.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/v_meta_step3.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;em&gt;Changing of texturing in real time:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;../img/portfolio/v_meta_step4.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/v_meta_step4.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 

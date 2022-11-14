@@ -31,16 +31,16 @@ description: Video game project at ESIR - Creation of an escape game with Unity.
 <br/>
 >_Environment creation:_
 >>_First room:_
-<img src = "/img/portfolio/i_escape_step5.png " class = "img-responsive" alt = "Online Training">
-<img src = "/img/portfolio/i_escape_step6.png " class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/i_escape_step5.png " class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/i_escape_step6.png " class = "img-responsive" alt = "Online Training">
 
 >>_Second room:_
-<img src = "/img/portfolio/i_escape_step3.png " class = "img-responsive" alt = "Online Training">
-<img src = "/img/portfolio/i_escape_step4.png " class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/i_escape_step3.png " class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/i_escape_step4.png " class = "img-responsive" alt = "Online Training">
 
 >>_Third room:_
-<img src = "/img/portfolio/i_escape_step1.png " class = "img-responsive" alt = "Online Training">
-<img src = "/img/portfolio/i_escape_step2.png " class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/i_escape_step1.png " class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/i_escape_step2.png " class = "img-responsive" alt = "Online Training">
 
 ### player ability
 
