@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-11-13T22:39:01-05:00</updated>
+  <updated>2022-11-13T22:47:58-05:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -72,11 +72,11 @@ The game is linear and goes through different periods of the main player’s lif
   &lt;p&gt;I built the whole house to make it static and usable. The elements of the house were imported from the Epic Games asset. The architecture of the house was done manually.&lt;br /&gt;&lt;/p&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Screen of this house&lt;/em&gt;
-&lt;img src=&quot;../img/portfolio/i_olga_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_olga_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_olga_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_olga_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_olga_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/i_olga_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_olga_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_olga_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_olga_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_olga_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -234,24 +234,24 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
 &lt;em&gt;Environment creation:&lt;/em&gt;&lt;/p&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;First room:&lt;/em&gt;
-&lt;img src=&quot;../img/portfolio/i_escape_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_escape_step6.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/i_escape_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_escape_step6.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Second room:&lt;/em&gt;
-&lt;img src=&quot;../img/portfolio/i_escape_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_escape_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/i_escape_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_escape_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Third room:&lt;/em&gt;
-&lt;img src=&quot;../img/portfolio/i_escape_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;../img/portfolio/i_escape_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/i_escape_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/img/portfolio/i_escape_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -275,7 +275,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;p&gt;&lt;a href=&quot;https://github.com/labougit/EscapeGame&quot;&gt;
 GitHub link
 &lt;/a&gt;
-&lt;img src=&quot;../img/portfolio/v_escape_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/portfolio/v_escape_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</content>
 
       
