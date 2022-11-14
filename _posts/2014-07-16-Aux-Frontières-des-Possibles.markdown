@@ -10,12 +10,12 @@ category: Art work
 description: Ce projet de Bande dessinée est réalisé par Arthur Lebrech scénariste et moi meme déssinateur. Je vous laisse découvir cette histoire...
 ---
 
-<img src = "../img/portfolio/i_bd_step2.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step3.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step1.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step4.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step5.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step6.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step7.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step8.jpg " class = "img-responsive" alt = "Online Training">
-<img src = "../img/portfolio/i_bd_step9.jpg " class = "img-responsive" alt = "Online Training">
+<img src = {{"/img/portfolio/i_bd_step2.jpg " | relative_url }} class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step3.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step1.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step4.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step5.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step6.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step7.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step8.jpg " class = "img-responsive" alt = "Online Training">
+<img src = "/img/portfolio/i_bd_step9.jpg " class = "img-responsive" alt = "Online Training">
