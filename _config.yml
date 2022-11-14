@@ -7,6 +7,8 @@ keywords: "your keywords, separated by commas"
 skills: " 3d engineering - Technical art - Game design - Image processing - VR - Graphic Artist - AI - DeepLearning"
 meta_author: LastName FirstName
 
+baseurl: "/Portfolio/"
+
 # Google webmaster tools
 google_verify:
 
