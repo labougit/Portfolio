@@ -1,0 +1,57 @@
+---
+layout: default
+modal-id: 2
+date: 2022-10-01
+img: i_olga.jpg
+alt: image-alt
+project-date: Octobre 2022
+client: Vidéo Games
+category: Art work
+description: As part of a training in video game mastery at UQAC, we have to make a video game in a team of 4. The imposed theme is "you are your own enemy". We are making this video game on Unreal Engine 5.
+---
+## Video game creation process
+<br/>
+>In the production of this video game, we follow several processes leading to the realization of OLGA.
+- Video Game Concept Paper<br/>
+- Game Design Document<br/>
+- Structure of several production sprints for the realization of Video games<br/>
+- Final test of the game and presentation
+<br/>
+
+### Synopsis
+>Olga (Ольга) is a very young girl who looks very fulfilled. She comes from a loving and quite classic family, she lives in a warm house and she lacks nothing. Like all young children of her age, every day Olga discovers, learns and experiments, she experiences strong emotions and develops fears. At night, Olga finds in her dreams the elements that marked her during her day, and unfortunately, she finds her fears in her nightmares...<br/>
+Do you think it's normal for children to have trouble telling the difference between their imagination and the real world? However, Olga grows up and she understands that her nightmares are real threats to her. Strange curse inherited from her ancestors, Olga must fight to survive her nightmares which can really attack her.<br/>
+Dark, horrifying and deformed decors, bloodthirsty creatures, gore and disordered atmosphere, permanent feeling of anguish, this is what awaits Olga in her nightmares. She faces her worst fears during the night. To survive, Olga will have to adapt her daily life and make the right choices to prepare for the worst during her nightmares. Of course, she shouldn't make them worse by developing new fears...<br/>
+Olga's bad dreams will not abruptly awaken her from her slumber but rather threaten to grip her forever in terror...
+
+### Goal of the game
+>The player must overcome his fears during his nightmares, to become stronger and overcome the curse that falls on his family.<br/>
+The player can fail in the face of certain fears, which can complicate his progress. However, he must necessarily overcome his greatest fears.<br/>
+The game is linear and goes through different periods of the main player's life. The player must overcome each main fear to finish the game and can only lose to 3 intermediate nightmares.
+
+<div class="col-dark-8 col-dark-offset-2 text-center">
+<a href="/img/portfolio/olga_dc.pdf" button type="button" class="fa fa-download">
+          Document de concept
+</a>
+</div>
+<br/>
+<div class="col-dark-8 col-dark-offset-2 text-center">
+<a href="/img/portfolio/olga_gdd.pdf" button type="button" class="fa fa-download">
+          GDD
+</a>
+</div>
+
+
+### Game development phase
+#### Development of the environment
+>
+I built the whole house to make it static and usable. The elements of the house were imported from the Epic Games asset. The architecture of the house was done manually.<br/>
+>> _Screen of this house_
+<img src = "../img/portfolio/i_olga_step1.png " class = "img-responsive" alt = "Online Training">
+<img src = "../img/portfolio/i_olga_step2.png " class = "img-responsive" alt = "Online Training">
+<img src = "../img/portfolio/i_olga_step3.png " class = "img-responsive" alt = "Online Training">
+<img src = "../img/portfolio/i_olga_step4.png " class = "img-responsive" alt = "Online Training">
+<img src = "../img/portfolio/i_olga_step5.png " class = "img-responsive" alt = "Online Training">
+
+#### Development of the gameplay
+>In progresss...
