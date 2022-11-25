@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-11-13T23:18:59-05:00</updated>
-  <id>http://localhost:4000/</id>
+  <link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" />
+  <updated>2022-11-24T22:48:24-05:00</updated>
+  <id>http://localhost:4000/Portfolio/</id>
 
   
     <title type="html">Luke Abougit</title>
@@ -20,12 +20,178 @@
   
   
     <entry>
-      <title type="html">Olga</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Olga" />
+      <title type="html">Ai Chess</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Ai Chess" />
+      <published>2022-11-15T00:00:00-05:00</published>
+      <updated>2022-11-15T00:00:00-05:00</updated>
+      <id>http://localhost:4000/Portfolio/AI-chess</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Here to introduce the subject of chess competition, we have generated an intelligent agent capable of playing a movement of less than one second against another AI on the Arena platform. The technology used is Java. We use a tree structure calculating the different possible movements.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;game-structure-and-representation&quot;&gt;Game structure and representation&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Here for the hierarchical representation of an agent, we use a board.java, piece.java, API.java, entre.java.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The board structure is a static array comprising a set of Piece. It contains different methods useful for calculating the heuristic (board score at time t). For parts, we use the Robert Hyatt method using two tables. This technique allows to represent the movement of the pieces as vectors to which we check if it is possible to execute it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/tab1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/tab2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+These two tables are jointly linked and are used to know the movements.
+In turn we will give a movement and update our board, then make it communicate by the API.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;structure-of-the-decision-tree&quot;&gt;Structure of the decision tree&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The decision of a movement is made through a tree to which we are going to apply a search. In turn we will minimize our losses. That is to say anticipate our movements in relation to the opponent.
+A game tree is a pictorial representation of all the positions that can be reached at
+from those of the previous move. Here is the game tree for an endgame game of noughts and crosses.&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/chess_1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;heuristic&quot;&gt;Heuristic&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Here my crucial role in this project was in addition to generating the movements of the parts, to make the heurisitc. This made it possible to evaluate the scores and therefore to anticipate the choices. First I determined a weight for each piece in a specific order. In addition I used patterns of parts, allowing to add a more or less important weight on the movements.
+Each piece has a value and we fuck the score of its movement according to these different maps.&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/map.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+This heuristic made it possible to make openings. Then we do an interpolation between these opening maps and these closing maps.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;minmax&quot;&gt;MinMax&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;After building the tree we explore it and select the worst hits our AI can receive. So that we can then minimize our losses. We start from the maximum score to minimize the losses.&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/minmax.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/v_chess.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="AI chess" />
+      
+
+      
+
+      
+        <summary type="html">Introduction Here to introduce the subject of chess competition, we have generated an intelligent agent capable of playing a movement of less than one second against another AI on the Arena platform. The technology used is Java. We use a tree structure calculating the different possible movements.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Intelligent Agent</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Intelligent Agent" />
       <published>2022-10-01T00:00:00-04:00</published>
       <updated>2022-10-01T00:00:00-04:00</updated>
-      <id>http://localhost:4000/OLGA-</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;h2 id=&quot;video-game-creation-process&quot;&gt;Video game creation process&lt;/h2&gt;
+      <id>http://localhost:4000/Portfolio/Intelligent-agent</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The design of our program is based on the fact that we want there to be no direct communication between the environment (generation of jewels and random dust in the mansion) and the robot (capture of the mansion, choice of its path based on an exploration algorithm). We therefore have three threads in our program: TR for ThreadRobot which will take care of the behavior of the robot, TE for ThreadEnvironment which allows the random generation of dust and jewels then TI for ThreadInterface which manages the display and takes care of managing the mansion and the score. TI can be seen as a bridge between TR and TE so that they can be on the same mansion.
+The communication between the threads will be done through a synchronized queue that each of these threads will share. So we have TE and TR as producer in the tail and TI as consumer in the tail.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;We can see below the images of our program in operation:&lt;/em&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/agent.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/agent2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;description-of-the-environment&quot;&gt;Description of the environment&lt;/h3&gt;
+&lt;h4 id=&quot;property&quot;&gt;Property&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The environment is the simplest Thread in the project. It only consists of randomly managing dust and jewels. These last two elements each have their own class which inherits from the ‘Object_scene’ class. Jewel or dust class have their own respective attributes (image path, number of points when to vacuum or pick up, their position in the mansion matrix). We also have a vacuum cleaner class which inherits from ‘Object_scene’ allowing the display of the vacuum cleaner.&lt;/p&gt;
+  &lt;h4 id=&quot;structure&quot;&gt;Structure&lt;/h4&gt;
+  &lt;p&gt;The structure of the environment is represented by a class which inherits from the Thread.threading object, which is called ThreadEnvironment, and which allows in an infinite loop to generate dust and objects with a random sleep between x and y seconds. So we have the generation of the future object which is random (can be a dust, a jewel or nothing) and the time between two appearances (the time is between x and y seconds), X and Y two variables defined by the user in the code.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The environment is a 3-dimensional array containing in each of these boxes a list of ‘Object_scene’ objects. The ‘Object_scene’ class is the parent class for dust, jewelry and vacuum cleaner.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;agent-description&quot;&gt;Agent Description&lt;/h3&gt;
+&lt;h4 id=&quot;ownership-and-type-of-agent&quot;&gt;Ownership and type of agent&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The ThreadRobot is a class that inherits from Thread.threading. This class has the role, in an infinite loop, of carrying out the 4 steps necessary for the operation of our intelligent agent. It calls the capture function, then transforms the result into a tree, and thus executes the exploration algorithm before executing the whole thing.
+These steps are described in more detail in the Modeling section.
+This class also makes it possible to store the attributes necessary for these steps.
+Agent structure and function
+When the Robot captures its environment, it proceeds by constructing a tree representing the environment in a hierarchical manner, and then applying an exploration to it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;agent-description-1&quot;&gt;Agent Description&lt;/h3&gt;
+&lt;h4 id=&quot;ownership-and-type-of-agent-1&quot;&gt;Ownership and type of agent&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The ThreadRobot is a class that inherits from Thread.threading. This class has the role, in an infinite loop, of carrying out the 4 steps necessary for the operation of our intelligent agent. It calls the capture function, then transforms the result into a tree, and thus executes the exploration algorithm before executing the whole thing.
+These steps are described in more detail in the Modeling section.
+This class also makes it possible to store the attributes necessary for these steps.&lt;/p&gt;
+  &lt;h4 id=&quot;agent-structure-and-function&quot;&gt;Agent structure and function&lt;/h4&gt;
+  &lt;p&gt;When the Robot captures its environment, it proceeds by constructing a tree representing the environment in a hierarchical manner, and then applying an exploration to it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/aspirateur.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="AI" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Olga</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Olga" />
+      <published>2022-10-01T00:00:00-04:00</published>
+      <updated>2022-10-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/Portfolio/OLGA-</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;video-game-creation-process&quot;&gt;Video game creation process&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;In the production of this video game, we follow several processes leading to the realization of OLGA.&lt;/p&gt;
@@ -54,13 +220,13 @@ The game is linear and goes through different periods of the main player’s lif
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;col-dark-8 col-dark-offset-2 text-center&quot;&gt;
-&lt;a href=&quot;/img/portfolio/olga_dc.pdf&quot; button=&quot;&quot; type=&quot;button&quot; class=&quot;fa fa-download&quot;&gt;
+&lt;a href=&quot;/Portfolio//img/portfolio/olga_dc.pdf&quot; button=&quot;&quot; type=&quot;button&quot; class=&quot;fa fa-download&quot;&gt;
           Document de concept
 &lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;col-dark-8 col-dark-offset-2 text-center&quot;&gt;
-&lt;a href=&quot;/img/portfolio/olga_gdd.pdf&quot; button=&quot;&quot; type=&quot;button&quot; class=&quot;fa fa-download&quot;&gt;
+&lt;a href=&quot;/Portfolio//img/portfolio/olga_gdd.pdf&quot; button=&quot;&quot; type=&quot;button&quot; class=&quot;fa fa-download&quot;&gt;
           GDD
 &lt;/a&gt;
 &lt;/div&gt;
@@ -72,11 +238,11 @@ The game is linear and goes through different periods of the main player’s lif
   &lt;p&gt;I built the whole house to make it static and usable. The elements of the house were imported from the Epic Games asset. The architecture of the house was done manually.&lt;br /&gt;&lt;/p&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Screen of this house&lt;/em&gt;
-&lt;img src=&quot;/img/portfolio/i_olga_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_olga_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_olga_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_olga_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_olga_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_olga_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_olga_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_olga_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_olga_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_olga_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -113,11 +279,11 @@ The game is linear and goes through different periods of the main player’s lif
   
     <entry>
       <title type="html">Project Metahumans Unreal Engine 5</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project Metahumans Unreal Engine 5" />
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Project Metahumans Unreal Engine 5" />
       <published>2022-09-15T00:00:00-04:00</published>
       <updated>2022-09-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-MetaHumans-Unreal-Engine-5</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;h2 id=&quot;metahumans-project&quot;&gt;MetaHuman’s project&lt;/h2&gt;
+      <id>http://localhost:4000/Portfolio/project-MetaHumans-Unreal-Engine-5</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;metahumans-project&quot;&gt;MetaHuman’s project&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport.
@@ -139,11 +305,11 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Environment creation:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_meta_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_meta_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_meta_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_meta_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_meta_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_meta_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_meta_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_meta_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_meta_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -152,8 +318,8 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;MetaHuman’s animation:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/v_meta_step2.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step2.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -162,10 +328,10 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Switch of camera:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/img/portfolio/v_meta_step3.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step3.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 &lt;em&gt;Changing of texturing in real time:&lt;/em&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/img/portfolio/v_meta_step4.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step4.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -201,11 +367,11 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   
     <entry>
       <title type="html">Medieval Escape Game</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Medieval Escape Game" />
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Medieval Escape Game" />
       <published>2022-06-01T00:00:00-04:00</published>
       <updated>2022-06-01T00:00:00-04:00</updated>
-      <id>http://localhost:4000/Medieval-Escape-Game</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;h2 id=&quot;project-escape-game&quot;&gt;Project Escape Game&lt;/h2&gt;
+      <id>http://localhost:4000/Portfolio/Medieval-Escape-Game</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;project-escape-game&quot;&gt;Project Escape Game&lt;/h2&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;This project was carried out as part of my engineering training. The theme of the video games is: &lt;em&gt;Escape game&lt;/em&gt;. This escape game was made with my friend &lt;em&gt;Hugo Lammens&lt;/em&gt; with Unity.
@@ -234,24 +400,24 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
 &lt;em&gt;Environment creation:&lt;/em&gt;&lt;/p&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;First room:&lt;/em&gt;
-&lt;img src=&quot;/img/portfolio/i_escape_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_escape_step6.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_escape_step5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_escape_step6.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Second room:&lt;/em&gt;
-&lt;img src=&quot;/img/portfolio/i_escape_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_escape_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_escape_step3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_escape_step4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Third room:&lt;/em&gt;
-&lt;img src=&quot;/img/portfolio/i_escape_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_escape_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_escape_step1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_escape_step2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
@@ -275,7 +441,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;p&gt;&lt;a href=&quot;https://github.com/labougit/EscapeGame&quot;&gt;
 GitHub link
 &lt;/a&gt;
-&lt;img src=&quot;/img/portfolio/v_escape_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/v_escape_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</content>
 
       
@@ -305,20 +471,279 @@ GitHub link
     </entry>
   
     <entry>
+      <title type="html">Project Neural Networks</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Project Neural Networks" />
+      <published>2022-05-22T00:00:00-04:00</published>
+      <updated>2022-05-22T00:00:00-04:00</updated>
+      <id>http://localhost:4000/Portfolio/project-neural-networks</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;cnn-choice-of-learning-model&quot;&gt;CNN choice of learning model&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In this project we have to build a robust learning model to classify emotions.
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;datasets&quot;&gt;Datasets&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Here we are working with a set of images of size 48x48 in shades of gray with a color depth of 8.
+Number of total images: 6168.
+&lt;img src=&quot;/Portfolio//img/portfolio/cnn_im.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Learning set&lt;/em&gt; :
+Examples: 4273
+Class: angry, happy, sad, surprised
+Class distribution:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;598 angry&lt;/li&gt;
+      &lt;li&gt;1310 happy&lt;/li&gt;
+      &lt;li&gt;759 sad&lt;/li&gt;
+      &lt;li&gt;1606 surprised&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;em&gt;Test set&lt;/em&gt; :
+Examples: 1895
+Class: angry, happy, sad, surprised
+Class distribution:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;175 angry&lt;/li&gt;
+      &lt;li&gt;571 happy&lt;/li&gt;
+      &lt;li&gt;318 sad&lt;/li&gt;
+      &lt;li&gt;831 surprised
+&amp;lt;/br&amp;gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;learning-model&quot;&gt;Learning model&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In the context of learning a multi-class classification model, we decide to use an NN type classifier (neural networks).
+To do this we will use:
+&lt;em&gt;An NN using a gradient histogram descriptor.&lt;/em&gt;
+&lt;em&gt;A CNN codes using convolutional neural networks.&lt;/em&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;For the descriptor and the NN we used the libraries: tensorflow, Keras, py.opencv, matplotib
+descriptor language: python
+classifier language: R&lt;/li&gt;
+    &lt;li&gt;For the CNN classifier we used the libraries: tensorflow, matplotlib, plotly.express, sklearn, seaborn
+descriptor language: python
+classifier language: python
+Our goal is to implement two classifiers and analyze their performance&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;descriptor&quot;&gt;Descriptor&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Gradient orientation histogram descriptor&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;For our first descriptor we have chosen to extract the gradient orientations of each image articulated in the format of a histogram.
+&lt;br /&gt;
+&lt;br /&gt;
+The extraction of these attributes was performed using py.opencv. By convolution of gradient orientation filter, we generate a table showing the amount of orientation from 0° to 180°.
+Then we quantify our histogram allowing the extraction of 10 attributes for each image. This is then saved in a .txt file containing one by one each of the attributes of all the images. For the sake of simplicity we assign a number of [1,…,4] for the classes [angry,…, surprised].
+&lt;img src=&quot;/Portfolio//img/portfolio/hog.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Finally, we obtain this type of .txt file which is then used in R.
+&lt;img src=&quot;/Portfolio//img/portfolio/txt.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;nn-classifier&quot;&gt;NN classifier&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Hyperparameter&lt;/em&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Activation function read back in input with 10 attributes&lt;/li&gt;
+    &lt;li&gt;5 hidden layers with replay function&lt;/li&gt;
+    &lt;li&gt;Softmax output function with 4 neurons corresponding to our 4 classes (a generalization of the sigmoid function has several classes)&lt;/li&gt;
+    &lt;li&gt;Adam optimization function (improvement of gradient descent adapted to deep learning)&lt;/li&gt;
+    &lt;li&gt;Loss function: Categorical_crossentropy because we have several classes&lt;/li&gt;
+    &lt;li&gt;400 epochs&lt;/li&gt;
+    &lt;li&gt;Batch size: 10&lt;/li&gt;
+    &lt;li&gt;Option view_metrics = F to speed up learning
+&lt;em&gt;NN learning result and test&lt;/em&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/matrix_1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We therefore observe a high error rate on the test set, which can be explained by the fact that some emotions are very similar.
+Therefore, during the extraction of the gradient orientation, the result of the attributes between the emotions Angers and Sad are subtly close (Happy and Surprised respectively)
+It is therefore the choice of our descriptor that makes our classifier less efficient and not the opposite.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;cnn-classifier&quot;&gt;CNN classifier&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;CNN&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;For our second descriptor we use Convolutional Layers and Pooling allowing the extraction of relevant attributes while downsampling.
+This choice of descriptors/classifiers seemed relevant to us and promised us much better results. Through the neural network, the kernel weights of the convolution layer filters would scale well to our expectations.
+Despite the complexity of its implementation and the learning time, we still chose this descriptor to get the best possible results.
+&lt;img src=&quot;/Portfolio//img/portfolio/CNN.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Hyperparameter&lt;/em&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Inceptionv3 function (image recognition)&lt;/li&gt;
+    &lt;li&gt;Average Pooling Layer&lt;/li&gt;
+    &lt;li&gt;Read-back activation function&lt;/li&gt;
+    &lt;li&gt;Softmax output function with 4 neurons corresponding to our 4 classes (a generalization of the sigmoid function has several classes)&lt;/li&gt;
+    &lt;li&gt;Optimization function SGD (Stochastic gradient descent which allows to have a convergence without going through all the examples)&lt;/li&gt;
+    &lt;li&gt;Loss function: Categorical_crossentropy because we have several classes&lt;/li&gt;
+    &lt;li&gt;30 epochs&lt;/li&gt;
+    &lt;li&gt;Batch size: 64&lt;/li&gt;
+    &lt;li&gt;Early Stopping to avoid too long treatment&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;CNN learning result and test&lt;/em&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/matrix_2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We therefore observe a low error rate on the test set which can be explained by the complexity of the descriptor.
+Through adaptive learning (during backpropagation) to data types, the main strength of CNN lies in the scalability of the convolution layers. So we managed to go from an Accuracy of 0.3 to 0.98 for the Test set.
+For time reasons we could not improve our CNN because learning takes about 2 hours.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Computer Science" />
+      
+
+      
+
+      
+        <summary type="html">CNN choice of learning model In this project we have to build a robust learning model to classify emotions.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Lighting Modeling</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Lighting Modeling" />
+      <published>2022-02-14T00:00:00-05:00</published>
+      <updated>2022-02-14T00:00:00-05:00</updated>
+      <id>http://localhost:4000/Portfolio/Lighting-modeling</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h3 id=&quot;stage-of-the-lighting-modeling-algorithm&quot;&gt;Stage of the lighting modeling algorithm.&lt;/h3&gt;
+&lt;h4 id=&quot;phong-model&quot;&gt;Phong model&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We first had to configure the project and then calculate the intersection between the primary ray and the geometry in order to return the diffuse component of the material linked to the intersected triangle. Here, we had to return the diffuse component of the scene materials, which returns 2 red cubes.
+&lt;img src=&quot;/Portfolio//img/portfolio/cube1.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;diffuse-lighting-and-shadows&quot;&gt;Diffuse lighting and shadows&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This was to manage the diffuse lighting at the point of intersection between the ray and the geometry but also to display the shadows.
+For this, we have therefore implemented the Phong method which allows us to manage the lighting as well as the shadows for all the rays of the scene. We will then use the position of the light in relation to what is lit at the level of the scene. to check if there is direct light or shadow.
+&lt;img src=&quot;/Portfolio//img/portfolio/cube2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;cornell-box-with-floor-and-ceiling&quot;&gt;Cornell box with floor and ceiling&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We now use another stage, the Cornell box with a floor and ceiling with mirrored sides. The objective here was to add the calculation of the direct specular component to our calculations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We will add in our sendRay method a test to see if the specular component of the material that we intersect is non-zero, we will then relaunch a ray which will be multiplied by this component.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We also add in our phong method the taking into account of this specular component:
+&lt;img src=&quot;/Portfolio//img/portfolio/f.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;em&gt;Scene without and with the specular component&lt;/em&gt;:
+&lt;img src=&quot;/Portfolio//img/portfolio/cube3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;improved-algorithm&quot;&gt;Improved algorithm&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We can also notice that by testing on larger scenes such as the boat or the robot, we realize that our algorithm is not optimal because the rendering is quite slow.
+We therefore had to implement a spatial data structure to speed up the calculation of the intersection between a ray and the scene.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So we decided to create a BVH to solve this problem. To do this, we are going to retrieve all the triangles of our scene and sort them according to the most dispersive axis. So we have a tree whose leaves are the triangles of our scene.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The calculation time will therefore be improved thanks to the course of the BVH. We will therefore see if our rays intersect the root of the BVH which is our scene and if this is the case, we check if our ray intersects the right or left son of this root. We repeat this until we find our triangle. We therefore do not test all the triangles but only those that we encounter in the tree, not our BVH, hence the improvement in the calculation time.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/image_r2.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/image_r3.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/image_r4.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/image_r5.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Ray casting" />
+      
+
+      
+
+      
+        <summary type="html">Stage of the lighting modeling algorithm. Phong model We first had to configure the project and then calculate the intersection between the primary ray and the geometry in order to return the diffuse component of the material linked to the intersected triangle. Here, we had to return the diffuse component of the scene materials, which returns 2 red cubes.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Aux Frontières Des Possibles</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Aux Frontières Des Possibles" />
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Aux Frontières Des Possibles" />
       <published>2020-11-01T00:00:00-04:00</published>
       <updated>2020-11-01T00:00:00-04:00</updated>
-      <id>http://localhost:4000/Aux-Fronti%C3%A8res-des-Possibles</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;&lt;img src=&quot;/img/portfolio/i_bd_step2.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step3.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step1.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step4.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step5.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step6.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step7.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step8.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/img/portfolio/i_bd_step9.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
+      <id>http://localhost:4000/Portfolio/Aux-Fronti%C3%A8res-des-Possibles</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step2.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step3.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step1.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step4.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step5.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step6.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step7.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step8.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step9.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -334,211 +759,6 @@ GitHub link
 
       
         <category term="Art work" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 10</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 10" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%2010</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;h3 id=&quot;mon-deuxieme-titre&quot;&gt;Mon deuxieme Titre&lt;/h3&gt;
-&lt;p&gt;blabla&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html">Mon deuxieme Titre blabla</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 9</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 9" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%209</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 8</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 8" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%208</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 7</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 7" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%207</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 6</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 6" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%206</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 6 copy 5</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6 copy 5" />
-      <published>2014-07-15T00:00:00-04:00</published>
-      <updated>2014-07-15T00:00:00-04:00</updated>
-      <id>http://localhost:4000/project-6%20copy%205</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
       
 
       

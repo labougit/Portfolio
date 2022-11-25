@@ -1,0 +1,40 @@
+---
+layout: default
+modal-id: 50
+date: 2022-11-15
+img: i_chess.jpg
+alt: image-alt
+project-date: Novembre 2022
+client: Computer science
+category: AI chess
+description: As part of an AI chess competition, I realized with my group an intelligent agent capable of playing chess.
+---
+### Introduction
+> Here to introduce the subject of chess competition, we have generated an intelligent agent capable of playing a movement of less than one second against another AI on the Arena platform. The technology used is Java. We use a tree structure calculating the different possible movements.
+
+#### Game structure and representation
+>Here for the hierarchical representation of an agent, we use a board.java, piece.java, API.java, entre.java.
+
+> The board structure is a static array comprising a set of Piece. It contains different methods useful for calculating the heuristic (board score at time t). For parts, we use the Robert Hyatt method using two tables. This technique allows to represent the movement of the pieces as vectors to which we check if it is possible to execute it.
+
+>> <img src = "{{ site.baseurl }}/img/portfolio/tab1.png " class = "img-responsive" alt = "Online Training">
+>> <img src = "{{ site.baseurl }}/img/portfolio/tab2.png " class = "img-responsive" alt = "Online Training">
+> These two tables are jointly linked and are used to know the movements.
+In turn we will give a movement and update our board, then make it communicate by the API.
+
+#### Structure of the decision tree
+>The decision of a movement is made through a tree to which we are going to apply a search. In turn we will minimize our losses. That is to say anticipate our movements in relation to the opponent.
+A game tree is a pictorial representation of all the positions that can be reached at
+from those of the previous move. Here is the game tree for an endgame game of noughts and crosses.
+>> <img src = "{{ site.baseurl }}/img/portfolio/chess_1.png " class = "img-responsive" alt = "Online Training">
+
+#### Heuristic
+>Here my crucial role in this project was in addition to generating the movements of the parts, to make the heurisitc. This made it possible to evaluate the scores and therefore to anticipate the choices. First I determined a weight for each piece in a specific order. In addition I used patterns of parts, allowing to add a more or less important weight on the movements.
+>Each piece has a value and we fuck the score of its movement according to these different maps.
+>> <img src = "{{ site.baseurl }}/img/portfolio/map.png " class = "img-responsive" alt = "Online Training">
+>This heuristic made it possible to make openings. Then we do an interpolation between these opening maps and these closing maps.
+
+#### MinMax
+> After building the tree we explore it and select the worst hits our AI can receive. So that we can then minimize our losses. We start from the maximum score to minimize the losses.
+>> <img src = "{{ site.baseurl }}/img/portfolio/minmax.png " class = "img-responsive" alt = "Online Training">
+>> <img src = "{{ site.baseurl }}/img/portfolio/v_chess.gif " class = "img-responsive" alt = "Online Training">
