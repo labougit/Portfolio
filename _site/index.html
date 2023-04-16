@@ -100,6 +100,17 @@
     <div class="portfolio-flex-row">
       
       <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-20" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/skeletal tremor tools.jpg" class="img-responsive" alt="image-alt">
+        </a>
+      </div>
+      
+      <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-50" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
@@ -343,6 +354,131 @@
 </div>
 
   <!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="portfolioModal-20" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">            <h2>Project Tools Metahuman</h2>
+            <hr class="-">
+            <img src="img/portfolio/skeletal tremor tools.jpg" class="img-responsive img-centered" alt="image-alt">
+            
+            <p>Creation of an interactive tool on unreal engine to simulate human skeletal tremor.</p>
+            
+            <div style="text-align: justify;"><h2 id="explanation-of-the-tool-creation-process">Explanation of the tool creation process</h2>
+
+<p><br /></p>
+<blockquote>
+  <p>In this project, I will explain the different stages of creating the tool.
+<br /></p>
+</blockquote>
+
+<h3 id="context-of-work">Context of work</h3>
+<p><br /></p>
+<blockquote>
+  <p>Here this tool is part of a course project, we are a team of three, each with the aim of simulating realistic human behavior. My tool aims to simulate a tremor during an intense effort, or a neurodegenerative disease.
+My work is based on the animation of a metahuman doing a squat.
+<img src="/Portfolio//img/portfolio/v_meta_step1.gif " class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<blockquote>
+  <p>The objective is to be able to wait in real time for these skeletal areas during the launch. Once this waits, the second objective is to manipulate and modify these skeletal positions.</p>
+</blockquote>
+
+<p><img src="/Portfolio//img/portfolio/RetargetMan.png " class="img-responsive" alt="Online Training" /></p>
+
+<h3 id="the-desired-goal">The desired goal</h3>
+<blockquote>
+  <p>My goal is to reach this micro disturbance on the knees
+<img src="/Portfolio//img/portfolio/distor.gif " class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<h3 id="first-tool-prototype">First tool prototype</h3>
+<h4 id="simulation-approach">Simulation approach</h4>
+<blockquote>
+  <p>The goal is to move this piece of skeleton in real time, and observe the results.
+<img src="/Portfolio//img/portfolio/first_idea.jpg " class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<h4 id="implementation">Implementation</h4>
+<blockquote>
+  <p><em>Access to the various nodes of the skeleton</em></p>
+  <blockquote>
+    <p>In the Animation Blueprint <em>BP_AnimAoi</em> linked to metahuman, we locally change a piece of skeleton among the global animation.
+To do this the nodes <em>local to component</em> and <em>component to local</em> play the role of the transition matrix to pass from a different coordinate space to another.
+<img src="/Portfolio//img/portfolio/blue_print_change_rotation_of_legs.png " class="img-responsive" alt="Online Training" />
+Here I access a skeletal node and I operate a translation by a specific vector.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><em>Function for modifying the translation vector</em></p>
+  <blockquote>
+    <p>The role of this function is to access the <em>BP_AnimAoi</em> class to modify the input vector there.
+<img src="/Portfolio//img/portfolio/function_of_meta_human_to_chnage_variable_of_degree.png " class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><em>Call vector modification by event</em></p>
+  <blockquote>
+    <p>We add an event related to this change in the blueprint event of the global scene. Linked to the key event, we add random material rotation.
+<img src="/Portfolio//img/portfolio/change_event_with_key.png " class="img-responsive" alt="Online Training" />
+<br /></p>
+  </blockquote>
+</blockquote>
+
+<h4 id="observing-the-prototype">Observing the prototype</h4>
+<blockquote>
+  <p><em>Result</em></p>
+  <blockquote>
+    <p>We observe that the modification is happening correctly and in real time, only the foot moves. Which is not the desired effect. We must make sure to modify expect the desired realism. The track is the <em>procedural processing</em>.
+<img src="/Portfolio//img/portfolio/exemple_transform_bones.gif" class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<h3 id="second-tool-prototype">Second tool prototype</h3>
+<h4 id="simulation-approach-1">Simulation approach</h4>
+<blockquote>
+  <p>The second prototype is described in the Unreal documentation, we must make sure to modify the knees while keeping the bust and the foot static with respect to the scene marker.
+<img src="/Portfolio//img/portfolio/exemple_pro1.gif " class="img-responsive" alt="Online Training" />
+The role of the Ik Solver is to generate static zones through a root bone and an end bone.
+<img src="/Portfolio//img/portfolio/bloc_sk.png" class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+</div>
+            <ul class="list-inline item-details">
+              
+              <li>Client:
+                <strong>Image Processing</strong>
+              </li>
+              
+              
+              <li>Date:
+                <strong>Mai 2022</strong>
+              </li>
+              
+              
+              <li>Service:
+                <strong>Computer Science</strong>
+              </li>
+              
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="portfolio-modal modal fade" id="portfolioModal-50" tabindex="-1" role="dialog"
   aria-hidden="true">

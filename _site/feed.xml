@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" />
-  <updated>2023-03-25T02:16:56-04:00</updated>
+  <updated>2023-04-16T13:51:59-04:00</updated>
   <id>http://localhost:4000/Portfolio/</id>
 
   
@@ -18,6 +18,119 @@
   
 
   
+  
+    <entry>
+      <title type="html">Project Tools Metahuman</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Project Tools Metahuman" />
+      <published>2023-04-01T00:00:00-04:00</published>
+      <updated>2023-04-01T00:00:00-04:00</updated>
+      <id>http://localhost:4000/Portfolio/project-tools-metaHuman</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;explanation-of-the-tool-creation-process&quot;&gt;Explanation of the tool creation process&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In this project, I will explain the different stages of creating the tool.
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;context-of-work&quot;&gt;Context of work&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Here this tool is part of a course project, we are a team of three, each with the aim of simulating realistic human behavior. My tool aims to simulate a tremor during an intense effort, or a neurodegenerative disease.
+My work is based on the animation of a metahuman doing a squat.
+&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The objective is to be able to wait in real time for these skeletal areas during the launch. Once this waits, the second objective is to manipulate and modify these skeletal positions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/RetargetMan.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-desired-goal&quot;&gt;The desired goal&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;My goal is to reach this micro disturbance on the knees
+&lt;img src=&quot;/Portfolio//img/portfolio/distor.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;first-tool-prototype&quot;&gt;First tool prototype&lt;/h3&gt;
+&lt;h4 id=&quot;simulation-approach&quot;&gt;Simulation approach&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The goal is to move this piece of skeleton in real time, and observe the results.
+&lt;img src=&quot;/Portfolio//img/portfolio/first_idea.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;implementation&quot;&gt;Implementation&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Access to the various nodes of the skeleton&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;In the Animation Blueprint &lt;em&gt;BP_AnimAoi&lt;/em&gt; linked to metahuman, we locally change a piece of skeleton among the global animation.
+To do this the nodes &lt;em&gt;local to component&lt;/em&gt; and &lt;em&gt;component to local&lt;/em&gt; play the role of the transition matrix to pass from a different coordinate space to another.
+&lt;img src=&quot;/Portfolio//img/portfolio/blue_print_change_rotation_of_legs.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+Here I access a skeletal node and I operate a translation by a specific vector.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Function for modifying the translation vector&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;The role of this function is to access the &lt;em&gt;BP_AnimAoi&lt;/em&gt; class to modify the input vector there.
+&lt;img src=&quot;/Portfolio//img/portfolio/function_of_meta_human_to_chnage_variable_of_degree.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Call vector modification by event&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We add an event related to this change in the blueprint event of the global scene. Linked to the key event, we add random material rotation.
+&lt;img src=&quot;/Portfolio//img/portfolio/change_event_with_key.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;observing-the-prototype&quot;&gt;Observing the prototype&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Result&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We observe that the modification is happening correctly and in real time, only the foot moves. Which is not the desired effect. We must make sure to modify expect the desired realism. The track is the &lt;em&gt;procedural processing&lt;/em&gt;.
+&lt;img src=&quot;/Portfolio//img/portfolio/exemple_transform_bones.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;second-tool-prototype&quot;&gt;Second tool prototype&lt;/h3&gt;
+&lt;h4 id=&quot;simulation-approach-1&quot;&gt;Simulation approach&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The second prototype is described in the Unreal documentation, we must make sure to modify the knees while keeping the bust and the foot static with respect to the scene marker.
+&lt;img src=&quot;/Portfolio//img/portfolio/exemple_pro1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+The role of the Ik Solver is to generate static zones through a root bone and an end bone.
+&lt;img src=&quot;/Portfolio//img/portfolio/bloc_sk.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Computer Science" />
+      
+
+      
+
+      
+        <summary type="html">Explanation of the tool creation process</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Ai Chess</title>
