@@ -61,3 +61,20 @@ Here I access a skeletal node and I operate a translation by a specific vector.
 <img src = "{{ site.baseurl }}/img/portfolio/exemple_pro1.gif " class = "img-responsive" alt = "Online Training">
 The role of the Ik Solver is to generate static zones through a root bone and an end bone.
 <img src = "{{ site.baseurl }}/img/portfolio/bloc_sk.png" class = "img-responsive" alt = "Online Training">
+
+#### Implementation
+>_Method par IK_
+>>In this method we generate nodes in a structure that we call mother. Each _IKGoal_ node makes the bone it is affiliated with static, this method is the _IkRig_ method of adding solvers. See the example below:
+<img src = "{{ site.baseurl }}/img/portfolio/Pole4.gif" class = "img-responsive" alt = "Online Training">
+
+>_Added implementation on the metaHuman_
+>>I access the control of each of the _IKGoal_ and I apply a vector transformation to it according to an event.
+<img src = "{{ site.baseurl }}/img/portfolio/procedural_b.png" class = "img-responsive" alt = "Online Training">
+Here are the possibilities that can be made thanks to this tool in post-compilation:
+<img src = "{{ site.baseurl }}/img/portfolio/articul.gif" class = "img-responsive" alt = "Online Training">
+<img src = "{{ site.baseurl }}/img/portfolio/rot.gif" class = "img-responsive" alt = "Online Training">
+
+#### Observing the prototype
+> _Result_
+>> We observe a much better result due to the realism, and the fixing of the foot to the ground in a static way. There is still a lot of micro-parameter to manage my results better.
+<img src = "{{ site.baseurl }}/img/portfolio/resultat_shake.gif" class = "img-responsive" alt = "Online Training">

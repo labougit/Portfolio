@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" />
-  <updated>2023-04-16T15:36:45-04:00</updated>
+  <updated>2023-04-17T01:28:04-04:00</updated>
   <id>http://localhost:4000/Portfolio/</id>
 
   
@@ -104,6 +104,35 @@ Here I access a skeletal node and I operate a translation by a specific vector.&
 &lt;img src=&quot;/Portfolio//img/portfolio/exemple_pro1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
 The role of the Ik Solver is to generate static zones through a root bone and an end bone.
 &lt;img src=&quot;/Portfolio//img/portfolio/bloc_sk.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;implementation-1&quot;&gt;Implementation&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Method par IK&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;In this method we generate nodes in a structure that we call mother. Each &lt;em&gt;IKGoal&lt;/em&gt; node makes the bone it is affiliated with static, this method is the &lt;em&gt;IkRig&lt;/em&gt; method of adding solvers. See the example below:
+&lt;img src=&quot;/Portfolio//img/portfolio/Pole4.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Added implementation on the metaHuman&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;I access the control of each of the &lt;em&gt;IKGoal&lt;/em&gt; and I apply a vector transformation to it according to an event.
+&lt;img src=&quot;/Portfolio//img/portfolio/procedural_b.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+Here are the possibilities that can be made thanks to this tool in post-compilation:
+&lt;img src=&quot;/Portfolio//img/portfolio/articul.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/rot.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;observing-the-prototype-1&quot;&gt;Observing the prototype&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Result&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We observe a much better result due to the realism, and the fixing of the foot to the ground in a static way. There is still a lot of micro-parameter to manage my results better.
+&lt;img src=&quot;/Portfolio//img/portfolio/resultat_shake.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
 &lt;/blockquote&gt;</content>
 
       
