@@ -11,6 +11,13 @@ $(document).ready(function() {
   portfolioSection.addClass('hidden');
   portfolioSection2.addClass('hidden');
 
+  // cible les skills
+  var skills1 = $('#skills_SE');
+  var skills2 = $('#skills_DP');
+  //masque one skill
+  skills2.addClass('hidden');
+
+
 
   // ajoute un écouteur d'événement au clic sur le lien Portfolio
   portfolioLink.click(function(event) {
@@ -35,6 +42,12 @@ setTimeout(function() {
       portfolioSection2.addClass('hidden');
       portfolioSection.addClass('disabled');
       portfolioSection2.removeClass('disabled');
+
+      skills1.toggleClass('hidden');
+      skills2.addClass('hidden');
+      skills1.addClass('disabled');
+      skills2.removeClass('disabled');
+
       $('header').css('background-image', 'url(/Portfolio/img/portfolio/f3.jpg)');
     }, 1000); // délai de 2 secondes
     }
@@ -72,6 +85,12 @@ setTimeout(function() {
       portfolioSection.addClass('hidden');
       portfolioSection2.addClass('disabled');
       portfolioSection.removeClass('disabled');
+
+      skills2.toggleClass('hidden');
+      skills1.addClass('hidden');
+      skills2.addClass('disabled');
+      skills1.removeClass('disabled');
+
       $('header').css('background-image', 'url(/Portfolio/img/portfolio/f2.jpg)');
     }, 1000);
   }

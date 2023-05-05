@@ -4,7 +4,8 @@ email: abougitluke@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Hello, I am a computer engineering student pursuing a double degree in computer science at ESIR and in video games at UQAC in Canada. I intend to be a future Software Engineering 3D Digital Imaging. I am passionate about 3d engineering, technical art, game design, image processing and VR."
 keywords: "your keywords, separated by commas"
-skills: " 3d engineering - Technical art - Game design - Image processing - VR - Graphic Artist - AI - DeepLearning"
+skills: " 3d engineering - Technical art - Image processing - AI - DeepLearning"
+skills2: " Game design - Graphic Artist - AI"
 meta_author: LastName FirstName
 
 baseurl: "/Portfolio/"
