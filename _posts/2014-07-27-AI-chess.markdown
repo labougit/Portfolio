@@ -5,8 +5,8 @@ date: 2022-11-15
 img: i_chess.jpg
 alt: image-alt
 project-date: Novembre 2022
-client: Computer science
-category: AI chess
+client: AIChess
+category: ComputerScience
 description: As part of an AI chess competition, I realized with my group an intelligent agent capable of playing chess.
 ---
 ### Introduction

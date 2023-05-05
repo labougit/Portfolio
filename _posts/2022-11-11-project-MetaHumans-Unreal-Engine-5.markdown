@@ -6,7 +6,7 @@ img: i_metahumans.jpg
 alt: image-alt
 project-date: September 2022
 client: Tech Art Unreal Engine
-category: Computer Science
+category: ComputerScience
 description: Research project at LIARA in UQAC - Video generation with Unreal Engine, MetaHuman, and Faceware.
 ---
 

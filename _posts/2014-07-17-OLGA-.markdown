@@ -6,7 +6,7 @@ img: i_olga.jpg
 alt: image-alt
 project-date: Octobre 2022
 client: Vidéo Games
-category: Art work
+category: ArtWork
 description: As part of a training in video game mastery at UQAC, we have to make a video game in a team of 4. The imposed theme is "you are your own enemy". We are making this video game on Unreal Engine 5.
 ---
 ## Video game creation process

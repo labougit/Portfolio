@@ -5,8 +5,8 @@ date: 2022-02-14
 img: i_raytracing.jpg
 alt: image-alt
 project-date: Fevrier 2022
-client: Computer science
-category: Ray casting
+client: Ray casting
+category: ComputerScience
 description: Here I had to model a 3d scene using Phong's Physics model. This technical model is used to determine the intensity of illumination along the surface of a 3D object. Phong physics takes into account three components, the ambient component, the diffuse component and the specular component.
 ---
 ### Stage of the lighting modeling algorithm.

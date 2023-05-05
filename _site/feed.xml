@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" />
-  <updated>2023-05-04T20:26:13-04:00</updated>
+  <updated>2023-05-04T21:27:29-04:00</updated>
   <id>http://localhost:4000/Portfolio/</id>
 
   
@@ -148,7 +148,7 @@ Here are the possibilities that can be made thanks to this tool in post-compilat
       </author>
 
       
-        <category term="Computer Science" />
+        <category term="ComputerScience" />
       
 
       
@@ -232,7 +232,7 @@ This heuristic made it possible to make openings. Then we do an interpolation be
       </author>
 
       
-        <category term="AI chess" />
+        <category term="ComputerScience" />
       
 
       
@@ -314,7 +314,7 @@ This class also makes it possible to store the attributes necessary for these st
       </author>
 
       
-        <category term="AI" />
+        <category term="ComputerScience" />
       
 
       
@@ -406,7 +406,7 @@ The game is linear and goes through different periods of the main player’s lif
       </author>
 
       
-        <category term="Art work" />
+        <category term="ArtWork" />
       
 
       
@@ -494,7 +494,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
       </author>
 
       
-        <category term="Computer Science" />
+        <category term="ComputerScience" />
       
 
       
@@ -599,7 +599,7 @@ GitHub link
       </author>
 
       
-        <category term="Vidéo Game" />
+        <category term="ComputerScience" />
       
 
       
@@ -771,7 +771,7 @@ For time reasons we could not improve our CNN because learning takes about 2 hou
       </author>
 
       
-        <category term="Computer Science" />
+        <category term="ComputerScience" />
       
 
       
@@ -858,7 +858,7 @@ We therefore had to implement a spatial data structure to speed up the calculati
       </author>
 
       
-        <category term="Ray casting" />
+        <category term="ComputerScience" />
       
 
       
@@ -900,7 +900,7 @@ We therefore had to implement a spatial data structure to speed up the calculati
       </author>
 
       
-        <category term="Art work" />
+        <category term="ArtWork" />
       
 
       

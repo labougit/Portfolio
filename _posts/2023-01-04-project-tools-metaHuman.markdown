@@ -6,7 +6,7 @@ img: skeletal tremor tools.jpg
 alt: image-alt
 project-date: Mai 2022
 client: Image Processing
-category: Computer Science
+category: ComputerScience
 description: Creation of an interactive tool on unreal engine to simulate human skeletal tremor.
 ---
 ## Explanation of the tool creation process

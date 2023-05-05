@@ -6,7 +6,7 @@ img: i_escapegame.jpg
 alt: image-alt
 project-date: June 2022
 client: Video game production
-category: Vidéo Game
+category: ComputerScience
 description: Video game project at ESIR - Creation of an escape game with Unity. Creation of 3d assets for the environment
 ---
 

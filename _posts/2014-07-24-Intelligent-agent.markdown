@@ -5,8 +5,8 @@ date: 2022-10-01
 img: i_aspi.jpg
 alt: image-alt
 project-date: Octobre 2022
-client: Computer science
-category: AI
+client: AI
+category: ComputerScience
 description: The goal of this project is to generate an omniscient intelligent agent whose role is to suck up dust and collect jewels in a continuously modified space. The environment will consist of a map containing 25 pieces on which jewels and dust are randomly placed in an infinite loop. The agent must contain two types of exploration algorithm an uninformed and an informed, to be able to clean the environment.
 
 ---

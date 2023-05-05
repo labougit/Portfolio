@@ -6,7 +6,7 @@ img: i_cnn.jpg
 alt: image-alt
 project-date: Mai 2022
 client: Image Processing
-category: Computer Science
+category: ComputerScience
 description: Creation of an image classification learning process. In our case, we decided to classify human faces according to their emotions.
 ---
 ## CNN choice of learning model

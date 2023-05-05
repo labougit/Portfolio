@@ -6,7 +6,7 @@ img: i_bd.jpg
 alt: image-alt
 project-date: December 2020
 client: Maison d'édition BD
-category: Art work
+category: ArtWork
 description: Ce projet de Bande dessinée est réalisé par Arthur Lebrech scénariste et moi meme déssinateur. Je vous laisse découvir cette histoire...
 ---
 <img src="{{ site.baseurl }}/img/portfolio/i_bd_step2.jpg" class="img-responsive" alt="Online Training">

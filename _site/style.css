@@ -207,7 +207,6 @@ section.success {
     }
 }
 
-
 .transition {
     position:absolute;
     height:160.4%;
@@ -236,7 +235,6 @@ section.success {
        100%   { transform: skewX(0deg) translateX(-50px);
    width:5%;z-index:1; box-shadow: none;}
   }
-
 
 #portfolio .portfolio-item {
     right: 0;
@@ -289,7 +287,11 @@ section.success {
     z-index: 2;
 }
 
-
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
 
 #portfolio2 .portfolio-item {
     right: 0;
@@ -341,11 +343,7 @@ section.success {
 #portfolio2 * {
     z-index: 2;
 }
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
+
 
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
