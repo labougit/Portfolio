@@ -91,7 +91,7 @@ header {
     text-align: center;
     color: #fff;
     background: url(/Portfolio/img/portfolio/f3.jpg) center;
-    background-repeat: no-repeat;
+    background-repeat: auto;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
