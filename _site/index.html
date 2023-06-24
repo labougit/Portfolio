@@ -88,7 +88,7 @@
           <span class="name">Luke Abougit</span>
           <hr class="." />
           <span class="skills"id="skills_SE"> 3d engineering - Technical art - Image processing - AI - DeepLearning</span>
-          <span class="skills"id="skills_DP"> Game design - Graphic Artist - AI</span>
+          <span class="skills"id="skills_DP">Graphic Artist - Bande Dessinée - Scénariste Illustrateur</span>
         </div>
       </div>
     </div>
@@ -105,19 +105,6 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-      
-      
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-20" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="img/portfolio/skeletal tremor tools.jpg" class="img-responsive" alt="image-alt">
-        </a>
-      </div>
-      
       
       
       <div class="portfolio-flex-item portfolio-item">
@@ -218,8 +205,6 @@
       
       
       
-      
-      
     </div>
   </div>
 </section>
@@ -234,8 +219,6 @@
         </div>
       </div>
       <div class="portfolio-flex-row">
-        
-        
         
         
         
@@ -273,19 +256,6 @@
               </div>
             </div>
             <img src="img/portfolio/i_bd.jpg" class="img-responsive" alt="image-alt">
-          </a>
-        </div>
-        
-        
-        
-        <div class="portfolio-flex-item portfolio-item">
-          <a href="#portfolioModal-199" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img src="img/portfolio/i_city.jpg" class="img-responsive" alt="image-alt">
           </a>
         </div>
         
@@ -413,9 +383,9 @@
           <h3>Location</h3>
           <p>
             
-            2477 rue de Langelier <br>
+            655 chemin des basses bréguières <br>
             
-            Saguenay, CA G7S5B1 <br>
+            Antibes, 06600 <br>
             
           </p>
         </div>
@@ -471,160 +441,6 @@
 </div>
 
   <!-- Portfolio Modals -->
-
-<div class="portfolio-modal modal fade" id="portfolioModal-20" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">            <h2>Project Tools Metahuman</h2>
-            <hr class="-">
-            <img src="img/portfolio/skeletal tremor tools.jpg" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Creation of an interactive tool on unreal engine to simulate human skeletal tremor.</p>
-            
-            <div style="text-align: justify;"><h2 id="explanation-of-the-tool-creation-process">Explanation of the tool creation process</h2>
-
-<p><br /></p>
-<blockquote>
-  <p>In this project, I will explain the different stages of creating the tool.
-<br /></p>
-</blockquote>
-
-<h3 id="context-of-work">Context of work</h3>
-<p><br /></p>
-<blockquote>
-  <p>Here this tool is part of a course project, we are a team of three, each with the aim of simulating realistic human behavior. My tool aims to simulate a tremor during an intense effort, or a neurodegenerative disease.
-My work is based on the animation of a metahuman doing a squat.
-<img src="/Portfolio//img/portfolio/v_meta_step1.gif " class="img-responsive" alt="Online Training" /></p>
-</blockquote>
-
-<blockquote>
-  <p>The objective is to be able to wait in real time for these skeletal areas during the launch. Once this waits, the second objective is to manipulate and modify these skeletal positions.</p>
-</blockquote>
-
-<p><img src="/Portfolio//img/portfolio/RetargetMan.png " class="img-responsive" alt="Online Training" /></p>
-
-<h3 id="the-desired-goal">The desired goal</h3>
-<blockquote>
-  <p>My goal is to reach this micro disturbance on the knees
-<img src="/Portfolio//img/portfolio/distor.gif " class="img-responsive" alt="Online Training" /></p>
-</blockquote>
-
-<h3 id="first-tool-prototype">First tool prototype</h3>
-<h4 id="simulation-approach">Simulation approach</h4>
-<blockquote>
-  <p>The goal is to move this piece of skeleton in real time, and observe the results.
-<img src="/Portfolio//img/portfolio/first_idea.jpg " class="img-responsive" alt="Online Training" /></p>
-</blockquote>
-
-<h4 id="implementation">Implementation</h4>
-<blockquote>
-  <p><em>Access to the various nodes of the skeleton</em></p>
-  <blockquote>
-    <p>In the Animation Blueprint <em>BP_AnimAoi</em> linked to metahuman, we locally change a piece of skeleton among the global animation.
-To do this the nodes <em>local to component</em> and <em>component to local</em> play the role of the transition matrix to pass from a different coordinate space to another.
-<img src="/Portfolio//img/portfolio/blue_print_change_rotation_of_legs.png " class="img-responsive" alt="Online Training" />
-Here I access a skeletal node and I operate a translation by a specific vector.</p>
-  </blockquote>
-</blockquote>
-
-<blockquote>
-  <p><em>Function for modifying the translation vector</em></p>
-  <blockquote>
-    <p>The role of this function is to access the <em>BP_AnimAoi</em> class to modify the input vector there.
-<img src="/Portfolio//img/portfolio/function_of_meta_human_to_chnage_variable_of_degree.png " class="img-responsive" alt="Online Training" /></p>
-  </blockquote>
-</blockquote>
-
-<blockquote>
-  <p><em>Call vector modification by event</em></p>
-  <blockquote>
-    <p>We add an event related to this change in the blueprint event of the global scene. Linked to the key event, we add random material rotation.
-<img src="/Portfolio//img/portfolio/change_event_with_key.png " class="img-responsive" alt="Online Training" />
-<br /></p>
-  </blockquote>
-</blockquote>
-
-<h4 id="observing-the-prototype">Observing the prototype</h4>
-<blockquote>
-  <p><em>Result</em></p>
-  <blockquote>
-    <p>We observe that the modification is happening correctly and in real time, only the foot moves. Which is not the desired effect. We must make sure to modify expect the desired realism. The track is the <em>procedural processing</em>.
-<img src="/Portfolio//img/portfolio/exemple_transform_bones.gif" class="img-responsive" alt="Online Training" /></p>
-  </blockquote>
-</blockquote>
-
-<h3 id="second-tool-prototype">Second tool prototype</h3>
-<h4 id="simulation-approach-1">Simulation approach</h4>
-<blockquote>
-  <p>The second prototype is described in the Unreal documentation, we must make sure to modify the knees while keeping the bust and the foot static with respect to the scene marker.
-<img src="/Portfolio//img/portfolio/exemple_pro1.gif " class="img-responsive" alt="Online Training" />
-The role of the Ik Solver is to generate static zones through a root bone and an end bone.
-<img src="/Portfolio//img/portfolio/bloc_sk.png" class="img-responsive" alt="Online Training" /></p>
-</blockquote>
-
-<h4 id="implementation-1">Implementation</h4>
-<blockquote>
-  <p><em>Method par IK</em></p>
-  <blockquote>
-    <p>In this method we generate nodes in a structure that we call mother. Each <em>IKGoal</em> node makes the bone it is affiliated with static, this method is the <em>IkRig</em> method of adding solvers. See the example below:
-<img src="/Portfolio//img/portfolio/Pole4.gif" class="img-responsive" alt="Online Training" /></p>
-  </blockquote>
-</blockquote>
-
-<blockquote>
-  <p><em>Added implementation on the metaHuman</em></p>
-  <blockquote>
-    <p>I access the control of each of the <em>IKGoal</em> and I apply a vector transformation to it according to an event.
-<img src="/Portfolio//img/portfolio/procedural_b.png" class="img-responsive" alt="Online Training" />
-Here are the possibilities that can be made thanks to this tool in post-compilation:
-<img src="/Portfolio//img/portfolio/articul.gif" class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/rot.gif" class="img-responsive" alt="Online Training" /></p>
-  </blockquote>
-</blockquote>
-
-<h4 id="observing-the-prototype-1">Observing the prototype</h4>
-<blockquote>
-  <p><em>Result</em></p>
-  <blockquote>
-    <p>We observe a much better result due to the realism, and the fixing of the foot to the ground in a static way. There is still a lot of micro-parameter to manage my results better.
-<img src="/Portfolio//img/portfolio/resultat_shake.gif" class="img-responsive" alt="Online Training" /></p>
-  </blockquote>
-</blockquote>
-</div>
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Image Processing</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>Mai 2022</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>ComputerScience</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="portfolio-modal modal fade" id="portfolioModal-50" tabindex="-1" role="dialog"
   aria-hidden="true">
@@ -939,10 +755,13 @@ The game is linear and goes through different periods of the main player’s lif
             
             <p>Research project at LIARA in UQAC - Video generation with Unreal Engine, MetaHuman, and Faceware.</p>
             
-            <div style="text-align: justify;"><h2 id="metahumans-project">MetaHuman’s project</h2>
+            <div style="text-align: justify;"><h1 id="metahumans-project">MetaHuman’s project</h1>
 <p><br /></p>
 <blockquote>
-  <p>This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport.
+  <p>This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. 
+@Baptiste Krecina : <a href="https://baptistekrc.notion.site/baptistekrc/Baptiste-Krecina-28ece7ab698346b6acc9c4c0c15383f2">Portfolio</a>
+@Jade Cothenet : <a href="https://jcothenet-portfolio.odoo.com/">Portfolio</a>
+The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport.
 This challenge involves the generation of a large dataset in photorealistic video format usable by AI. 
 <br />
 <br />
@@ -955,7 +774,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   </blockquote>
 </blockquote>
 
-<h3 id="my-role">My role</h3>
+<h2 id="environment-creaton">Environment creaton</h2>
 <blockquote>
   <p>First my role in this project was to build a photorealistic environment. I built the entire asset there on the game engine. Then it was a question of adding the lights to make the scene lively and realistic.<br /></p>
   <blockquote>
@@ -969,6 +788,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   </blockquote>
 </blockquote>
 
+<h2 id="metahumans-animation">MetaHuman’s animation</h2>
 <blockquote>
   <p>Then for the import of the metaHuman it was a question of applying an animation to it. For this I linked the animation of a mixamo dummy to the metaHuman dummy.<br /></p>
   <blockquote>
@@ -980,7 +800,12 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
 </blockquote>
 
 <blockquote>
-  <p>Then my role is to provide tools to switch cameras in the scene. And to make a touch system that changes the texture of the environment’s materials in real time<br /></p>
+  <p>This change of animation is done using a key, dynamically when launching the scene</p>
+</blockquote>
+
+<h2 id="switch-of-camera-and-texture">Switch of camera and texture</h2>
+<blockquote>
+  <p>Then our role is to provide tools to switch cameras in the scene. And to make a touch system that changes the texture of the environment’s materials in real time<br /></p>
   <blockquote>
     <p><em>Switch of camera:</em>
 <br />
@@ -991,10 +816,149 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   </blockquote>
 </blockquote>
 
+<h2 id="skeletal-tremor-tool">Skeletal Tremor Tool</h2>
+
+<h4 id="explanation-of-the-tool-creation-process">Explanation of the tool creation process</h4>
+<p><br /></p>
 <blockquote>
-  <h3 id="the-project-is-still-in-progress">The project is still in progress…</h3>
+  <p>In this project, I will explain the different stages of creating the tool.
+<br /></p>
 </blockquote>
 
+<h3 id="context-of-work">Context of work</h3>
+<p><br /></p>
+
+<blockquote>
+  <p>My tool aims to simulate a tremor during an intense effort, or a neurodegenerative disease.
+My work is based on the animation of a metahuman doing a squat.
+<img src="/Portfolio//img/portfolio/v_meta_step1.gif " class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<blockquote>
+  <p>The objective is to be able to wait in real time for these skeletal areas during the launch. Once this waits, the second objective is to manipulate and modify these skeletal positions.</p>
+</blockquote>
+
+<p><img src="/Portfolio//img/portfolio/RetargetMan.png " class="img-responsive" alt="Online Training" /></p>
+
+<h4 id="the-desired-goal">The desired goal</h4>
+<blockquote>
+  <p>My goal is to reach this micro disturbance on the knees
+<img src="/Portfolio//img/portfolio/distor.gif " class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<h4 id="first-tool-prototype">First tool prototype</h4>
+<h5 id="simulation-approach">Simulation approach</h5>
+<blockquote>
+  <p>The goal is to move this piece of skeleton in real time, and observe the results.
+<img src="/Portfolio//img/portfolio/first_idea.jpg " class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<h5 id="implementation">Implementation</h5>
+<blockquote>
+  <p><em>Access to the various nodes of the skeleton</em></p>
+  <blockquote>
+    <p>In the Animation Blueprint <em>BP_AnimAoi</em> linked to metahuman, we locally change a piece of skeleton among the global animation.
+To do this the nodes <em>local to component</em> and <em>component to local</em> play the role of the transition matrix to pass from a different coordinate space to another.
+<img src="/Portfolio//img/portfolio/blue_print_change_rotation_of_legs.png " class="img-responsive" alt="Online Training" />
+Here I access a skeletal node and I operate a translation by a specific vector.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><em>Function for modifying the translation vector</em></p>
+  <blockquote>
+    <p>The role of this function is to access the <em>BP_AnimAoi</em> class to modify the input vector there.
+<img src="/Portfolio//img/portfolio/function_of_meta_human_to_chnage_variable_of_degree.png " class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><em>Call vector modification by event</em></p>
+  <blockquote>
+    <p>We add an event related to this change in the blueprint event of the global scene. Linked to the key event, we add random material rotation.
+<img src="/Portfolio//img/portfolio/change_event_with_key.png " class="img-responsive" alt="Online Training" />
+<br /></p>
+  </blockquote>
+</blockquote>
+
+<h5 id="observing-the-prototype">Observing the prototype</h5>
+<blockquote>
+  <p><em>Result</em></p>
+  <blockquote>
+    <p>We observe that the modification is happening correctly and in real time, only the foot moves. Which is not the desired effect. We must make sure to modify expect the desired realism. The track is the <em>procedural processing</em>.
+<img src="/Portfolio//img/portfolio/exemple_transform_bones.gif" class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<h4 id="second-tool-prototype">Second tool prototype</h4>
+<h5 id="simulation-approach-1">Simulation approach</h5>
+<blockquote>
+  <p>The second prototype is described in the Unreal documentation, we must make sure to modify the knees while keeping the bust and the foot static with respect to the scene marker.
+<img src="/Portfolio//img/portfolio/exemple_pro1.gif " class="img-responsive" alt="Online Training" />
+The role of the Ik Solver is to generate static zones through a root bone and an end bone.
+<img src="/Portfolio//img/portfolio/bloc_sk.png" class="img-responsive" alt="Online Training" /></p>
+</blockquote>
+
+<h5 id="implementation-1">Implementation</h5>
+<blockquote>
+  <p><em>Method par IK</em></p>
+  <blockquote>
+    <p>In this method we generate nodes in a structure that we call mother. Each <em>IKGoal</em> node makes the bone it is affiliated with static, this method is the <em>IkRig</em> method of adding solvers. See the example below:
+<img src="/Portfolio//img/portfolio/Pole4.gif" class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <p><em>Added implementation on the metaHuman</em></p>
+  <blockquote>
+    <p>I access the control of each of the <em>IKGoal</em> and I apply a vector transformation to it according to an event.
+<img src="/Portfolio//img/portfolio/procedural_b.png" class="img-responsive" alt="Online Training" />
+Here are the possibilities that can be made thanks to this tool in post-compilation:
+<img src="/Portfolio//img/portfolio/articul.gif" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/rot.gif" class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<h5 id="observing-the-prototype-1">Observing the prototype</h5>
+<blockquote>
+  <p><em>Result</em></p>
+  <blockquote>
+    <p>We observe a much better result due to the realism, and the fixing of the foot to the ground in a static way. There is still a lot of micro-parameter to manage my results better.
+<img src="/Portfolio//img/portfolio/resultat_shake.gif" class="img-responsive" alt="Online Training" /></p>
+  </blockquote>
+</blockquote>
+
+<h3 id="capture-motion">Capture Motion</h3>
+<blockquote>
+  <p>In this part we have worked with colleagues @Jade Cothenet from Sherbrooke. They have sent us vides of patients and thanks to the DeepMotion software we can obtain skeletons that we can implement in our prototype.</p>
+</blockquote>
+
+<video controls="">
+  <source src="/Portfolio//img/portfolio/v1.mp4" type="video/mp4" />
+</video>
+
+<h3 id="faceware">FaceWare</h3>
+<p>In this section we use Faceware software to link the facial expressions to the Metahuman. To do this, with the @Baptiste Krecina ‘ works, we use a facial expression database to transpose the expressions onto a mesh in Faceware, and then send this mesh to Unreal to apply them to the metahumans.Thank’s to this implementation, we can animate the faces of metahumans.
+<img src="/Portfolio//img/portfolio/fw1.png" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/fw3.png" class="img-responsive" alt="Online Training" /></p>
+
+<h2 id="face-custom-tool">Face Custom Tool</h2>
+
+<blockquote>
+  <p>In this section we’ll look at a tool that allows you to customise a metahuman’s face. It will be used to offer more diversity in the profiles, which will make it easier for the artificial intelligence to learn. In fact, this tool will make it possible to have more different faces representing emotions (via FaceWare).</p>
+</blockquote>
+
+<blockquote>
+  <p>This is done entirely using blueprints, so we can change the colour of the eyes, the texture of the skin, the assets of the hair, beard and eyebrows, as well as the colour of the latter. As you can see from the following images.</p>
+</blockquote>
+
+<blockquote>
+  <p>Example of different faces:
+<img src="/Portfolio//img/portfolio/f1.png" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/f2.png" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/f3.png" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/f4.png" class="img-responsive" alt="Online Training" /></p>
+</blockquote>
 </div>
             <ul class="list-inline item-details">
               
@@ -1491,17 +1455,14 @@ We therefore had to implement a spatial data structure to speed up the calculati
             <hr class="-">
             <img src="img/portfolio/i_bd.jpg" class="img-responsive img-centered" alt="image-alt">
             
-            <p>Ce projet de Bande dessinée est réalisé par Arthur Lebrech scénariste et moi meme déssinateur. Je vous laisse découvir cette histoire...</p>
+            <p>Scénariste et illustrateur</p>
             
-            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/i_bd_step2.jpg" class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step3.jpg" class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step1.jpg " class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step4.jpg " class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step5.jpg " class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step6.jpg " class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step7.jpg " class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step8.jpg " class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/i_bd_step9.jpg " class="img-responsive" alt="Online Training" /></p>
+            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/i_bd_step1.jpg " class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/comic1.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/comic2.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/comic3.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/comic4.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/comic5.jpg" class="img-responsive" alt="Online Training" /></p>
 </div>
             <ul class="list-inline item-details">
               
@@ -1512,54 +1473,6 @@ We therefore had to implement a spatial data structure to speed up the calculati
               
               <li>Date:
                 <strong>December 2020</strong>
-              </li>
-              
-              
-              <li>Service:
-                <strong>ArtWork</strong>
-              </li>
-              
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="portfolioModal-199" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">            <h2>Concept Art</h2>
-            <hr class="-">
-            <img src="img/portfolio/i_city.jpg" class="img-responsive img-centered" alt="image-alt">
-            
-            <p>Concept art</p>
-            
-            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/comic1.jpg" class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/comic2.jpg" class="img-responsive" alt="Online Training" />
-<img src="/Portfolio//img/portfolio/comic3.jpg" class="img-responsive" alt="Online Training" /></p>
-</div>
-            <ul class="list-inline item-details">
-              
-              <li>Client:
-                <strong>Image Processing</strong>
-              </li>
-              
-              
-              <li>Date:
-                <strong>Mai 2022</strong>
               </li>
               
               
@@ -1593,9 +1506,19 @@ We therefore had to implement a spatial data structure to speed up the calculati
             <hr class="-">
             <img src="img/portfolio/i_titan.jpg" class="img-responsive img-centered" alt="image-alt">
             
-            <p>Bic art</p>
+            <p>Illustration</p>
             
-            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/i_titan.jng" class="img-responsive" alt="Online Training" /></p>
+            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/i1.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i2.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i3.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i4.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i5.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i6.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i7.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i8.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i9.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i10.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/i11.jpg" class="img-responsive" alt="Online Training" /></p>
 </div>
             <ul class="list-inline item-details">
               
@@ -1641,7 +1564,8 @@ We therefore had to implement a spatial data structure to speed up the calculati
             
             <p>Creation de portrait sous format digital</p>
             
-            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/i-portrait.png" class="img-responsive" alt="Online Training" /></p>
+            <div style="text-align: justify;"><p><img src="/Portfolio//img/portfolio/p1.jpg" class="img-responsive" alt="Online Training" />
+<img src="/Portfolio//img/portfolio/p2.jpg" class="img-responsive" alt="Online Training" /></p>
 </div>
             <ul class="list-inline item-details">
               

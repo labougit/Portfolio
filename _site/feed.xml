@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
   <link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" />
-  <updated>2023-05-05T17:04:33-04:00</updated>
+  <updated>2023-06-24T19:17:23-04:00</updated>
   <id>http://localhost:4000/Portfolio/</id>
 
   
@@ -18,148 +18,6 @@
   
 
   
-  
-    <entry>
-      <title type="html">Project Tools Metahuman</title>
-      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Project Tools Metahuman" />
-      <published>2023-04-01T00:00:00-04:00</published>
-      <updated>2023-04-01T00:00:00-04:00</updated>
-      <id>http://localhost:4000/Portfolio/project-tools-metaHuman</id>
-      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;explanation-of-the-tool-creation-process&quot;&gt;Explanation of the tool creation process&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;In this project, I will explain the different stages of creating the tool.
-&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;context-of-work&quot;&gt;Context of work&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Here this tool is part of a course project, we are a team of three, each with the aim of simulating realistic human behavior. My tool aims to simulate a tremor during an intense effort, or a neurodegenerative disease.
-My work is based on the animation of a metahuman doing a squat.
-&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The objective is to be able to wait in real time for these skeletal areas during the launch. Once this waits, the second objective is to manipulate and modify these skeletal positions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/RetargetMan.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-desired-goal&quot;&gt;The desired goal&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;My goal is to reach this micro disturbance on the knees
-&lt;img src=&quot;/Portfolio//img/portfolio/distor.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;first-tool-prototype&quot;&gt;First tool prototype&lt;/h3&gt;
-&lt;h4 id=&quot;simulation-approach&quot;&gt;Simulation approach&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;The goal is to move this piece of skeleton in real time, and observe the results.
-&lt;img src=&quot;/Portfolio//img/portfolio/first_idea.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;implementation&quot;&gt;Implementation&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Access to the various nodes of the skeleton&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;In the Animation Blueprint &lt;em&gt;BP_AnimAoi&lt;/em&gt; linked to metahuman, we locally change a piece of skeleton among the global animation.
-To do this the nodes &lt;em&gt;local to component&lt;/em&gt; and &lt;em&gt;component to local&lt;/em&gt; play the role of the transition matrix to pass from a different coordinate space to another.
-&lt;img src=&quot;/Portfolio//img/portfolio/blue_print_change_rotation_of_legs.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-Here I access a skeletal node and I operate a translation by a specific vector.&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Function for modifying the translation vector&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;The role of this function is to access the &lt;em&gt;BP_AnimAoi&lt;/em&gt; class to modify the input vector there.
-&lt;img src=&quot;/Portfolio//img/portfolio/function_of_meta_human_to_chnage_variable_of_degree.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Call vector modification by event&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;We add an event related to this change in the blueprint event of the global scene. Linked to the key event, we add random material rotation.
-&lt;img src=&quot;/Portfolio//img/portfolio/change_event_with_key.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;observing-the-prototype&quot;&gt;Observing the prototype&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Result&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;We observe that the modification is happening correctly and in real time, only the foot moves. Which is not the desired effect. We must make sure to modify expect the desired realism. The track is the &lt;em&gt;procedural processing&lt;/em&gt;.
-&lt;img src=&quot;/Portfolio//img/portfolio/exemple_transform_bones.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;second-tool-prototype&quot;&gt;Second tool prototype&lt;/h3&gt;
-&lt;h4 id=&quot;simulation-approach-1&quot;&gt;Simulation approach&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;The second prototype is described in the Unreal documentation, we must make sure to modify the knees while keeping the bust and the foot static with respect to the scene marker.
-&lt;img src=&quot;/Portfolio//img/portfolio/exemple_pro1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-The role of the Ik Solver is to generate static zones through a root bone and an end bone.
-&lt;img src=&quot;/Portfolio//img/portfolio/bloc_sk.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;implementation-1&quot;&gt;Implementation&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Method par IK&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;In this method we generate nodes in a structure that we call mother. Each &lt;em&gt;IKGoal&lt;/em&gt; node makes the bone it is affiliated with static, this method is the &lt;em&gt;IkRig&lt;/em&gt; method of adding solvers. See the example below:
-&lt;img src=&quot;/Portfolio//img/portfolio/Pole4.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Added implementation on the metaHuman&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;I access the control of each of the &lt;em&gt;IKGoal&lt;/em&gt; and I apply a vector transformation to it according to an event.
-&lt;img src=&quot;/Portfolio//img/portfolio/procedural_b.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-Here are the possibilities that can be made thanks to this tool in post-compilation:
-&lt;img src=&quot;/Portfolio//img/portfolio/articul.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/rot.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;observing-the-prototype-1&quot;&gt;Observing the prototype&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Result&lt;/em&gt;&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;We observe a much better result due to the realism, and the fixing of the foot to the ground in a static way. There is still a lot of micro-parameter to manage my results better.
-&lt;img src=&quot;/Portfolio//img/portfolio/resultat_shake.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="ComputerScience" />
-      
-
-      
-
-      
-        <summary type="html">Explanation of the tool creation process</summary>
-      
-
-      
-      
-    </entry>
   
     <entry>
       <title type="html">Ai Chess</title>
@@ -425,10 +283,13 @@ The game is linear and goes through different periods of the main player’s lif
       <published>2022-09-15T00:00:00-04:00</published>
       <updated>2022-09-15T00:00:00-04:00</updated>
       <id>http://localhost:4000/Portfolio/project-MetaHumans-Unreal-Engine-5</id>
-      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h2 id=&quot;metahumans-project&quot;&gt;MetaHuman’s project&lt;/h2&gt;
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;h1 id=&quot;metahumans-project&quot;&gt;MetaHuman’s project&lt;/h1&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport.
+  &lt;p&gt;This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. 
+@Baptiste Krecina : &lt;a href=&quot;https://baptistekrc.notion.site/baptistekrc/Baptiste-Krecina-28ece7ab698346b6acc9c4c0c15383f2&quot;&gt;Portfolio&lt;/a&gt;
+@Jade Cothenet : &lt;a href=&quot;https://jcothenet-portfolio.odoo.com/&quot;&gt;Portfolio&lt;/a&gt;
+The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport.
 This challenge involves the generation of a large dataset in photorealistic video format usable by AI. 
 &lt;br /&gt;
 &lt;br /&gt;
@@ -441,7 +302,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;my-role&quot;&gt;My role&lt;/h3&gt;
+&lt;h2 id=&quot;environment-creaton&quot;&gt;Environment creaton&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;First my role in this project was to build a photorealistic environment. I built the entire asset there on the game engine. Then it was a question of adding the lights to make the scene lively and realistic.&lt;br /&gt;&lt;/p&gt;
   &lt;blockquote&gt;
@@ -455,6 +316,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
+&lt;h2 id=&quot;metahumans-animation&quot;&gt;MetaHuman’s animation&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Then for the import of the metaHuman it was a question of applying an animation to it. For this I linked the animation of a mixamo dummy to the metaHuman dummy.&lt;br /&gt;&lt;/p&gt;
   &lt;blockquote&gt;
@@ -466,7 +328,12 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Then my role is to provide tools to switch cameras in the scene. And to make a touch system that changes the texture of the environment’s materials in real time&lt;br /&gt;&lt;/p&gt;
+  &lt;p&gt;This change of animation is done using a key, dynamically when launching the scene&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;switch-of-camera-and-texture&quot;&gt;Switch of camera and texture&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Then our role is to provide tools to switch cameras in the scene. And to make a touch system that changes the texture of the environment’s materials in real time&lt;br /&gt;&lt;/p&gt;
   &lt;blockquote&gt;
     &lt;p&gt;&lt;em&gt;Switch of camera:&lt;/em&gt;
 &lt;br /&gt;
@@ -477,8 +344,148 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 
+&lt;h2 id=&quot;skeletal-tremor-tool&quot;&gt;Skeletal Tremor Tool&lt;/h2&gt;
+
+&lt;h4 id=&quot;explanation-of-the-tool-creation-process&quot;&gt;Explanation of the tool creation process&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;h3 id=&quot;the-project-is-still-in-progress&quot;&gt;The project is still in progress…&lt;/h3&gt;
+  &lt;p&gt;In this project, I will explain the different stages of creating the tool.
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;context-of-work&quot;&gt;Context of work&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My tool aims to simulate a tremor during an intense effort, or a neurodegenerative disease.
+My work is based on the animation of a metahuman doing a squat.
+&lt;img src=&quot;/Portfolio//img/portfolio/v_meta_step1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The objective is to be able to wait in real time for these skeletal areas during the launch. Once this waits, the second objective is to manipulate and modify these skeletal positions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/RetargetMan.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-desired-goal&quot;&gt;The desired goal&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;My goal is to reach this micro disturbance on the knees
+&lt;img src=&quot;/Portfolio//img/portfolio/distor.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;first-tool-prototype&quot;&gt;First tool prototype&lt;/h4&gt;
+&lt;h5 id=&quot;simulation-approach&quot;&gt;Simulation approach&lt;/h5&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The goal is to move this piece of skeleton in real time, and observe the results.
+&lt;img src=&quot;/Portfolio//img/portfolio/first_idea.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;implementation&quot;&gt;Implementation&lt;/h5&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Access to the various nodes of the skeleton&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;In the Animation Blueprint &lt;em&gt;BP_AnimAoi&lt;/em&gt; linked to metahuman, we locally change a piece of skeleton among the global animation.
+To do this the nodes &lt;em&gt;local to component&lt;/em&gt; and &lt;em&gt;component to local&lt;/em&gt; play the role of the transition matrix to pass from a different coordinate space to another.
+&lt;img src=&quot;/Portfolio//img/portfolio/blue_print_change_rotation_of_legs.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+Here I access a skeletal node and I operate a translation by a specific vector.&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Function for modifying the translation vector&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;The role of this function is to access the &lt;em&gt;BP_AnimAoi&lt;/em&gt; class to modify the input vector there.
+&lt;img src=&quot;/Portfolio//img/portfolio/function_of_meta_human_to_chnage_variable_of_degree.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Call vector modification by event&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We add an event related to this change in the blueprint event of the global scene. Linked to the key event, we add random material rotation.
+&lt;img src=&quot;/Portfolio//img/portfolio/change_event_with_key.png &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;observing-the-prototype&quot;&gt;Observing the prototype&lt;/h5&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Result&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We observe that the modification is happening correctly and in real time, only the foot moves. Which is not the desired effect. We must make sure to modify expect the desired realism. The track is the &lt;em&gt;procedural processing&lt;/em&gt;.
+&lt;img src=&quot;/Portfolio//img/portfolio/exemple_transform_bones.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;second-tool-prototype&quot;&gt;Second tool prototype&lt;/h4&gt;
+&lt;h5 id=&quot;simulation-approach-1&quot;&gt;Simulation approach&lt;/h5&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The second prototype is described in the Unreal documentation, we must make sure to modify the knees while keeping the bust and the foot static with respect to the scene marker.
+&lt;img src=&quot;/Portfolio//img/portfolio/exemple_pro1.gif &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+The role of the Ik Solver is to generate static zones through a root bone and an end bone.
+&lt;img src=&quot;/Portfolio//img/portfolio/bloc_sk.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;implementation-1&quot;&gt;Implementation&lt;/h5&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Method par IK&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;In this method we generate nodes in a structure that we call mother. Each &lt;em&gt;IKGoal&lt;/em&gt; node makes the bone it is affiliated with static, this method is the &lt;em&gt;IkRig&lt;/em&gt; method of adding solvers. See the example below:
+&lt;img src=&quot;/Portfolio//img/portfolio/Pole4.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Added implementation on the metaHuman&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;I access the control of each of the &lt;em&gt;IKGoal&lt;/em&gt; and I apply a vector transformation to it according to an event.
+&lt;img src=&quot;/Portfolio//img/portfolio/procedural_b.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+Here are the possibilities that can be made thanks to this tool in post-compilation:
+&lt;img src=&quot;/Portfolio//img/portfolio/articul.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/rot.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;observing-the-prototype-1&quot;&gt;Observing the prototype&lt;/h5&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Result&lt;/em&gt;&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;We observe a much better result due to the realism, and the fixing of the foot to the ground in a static way. There is still a lot of micro-parameter to manage my results better.
+&lt;img src=&quot;/Portfolio//img/portfolio/resultat_shake.gif&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;capture-motion&quot;&gt;Capture Motion&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;In this part we have worked with colleagues @Jade Cothenet from Sherbrooke. They have sent us vides of patients and thanks to the DeepMotion software we can obtain skeletons that we can implement in our prototype.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;video controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/Portfolio//img/portfolio/v1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;h3 id=&quot;faceware&quot;&gt;FaceWare&lt;/h3&gt;
+&lt;p&gt;In this section we use Faceware software to link the facial expressions to the Metahuman. To do this, with the @Baptiste Krecina ‘ works, we use a facial expression database to transpose the expressions onto a mesh in Faceware, and then send this mesh to Unreal to apply them to the metahumans.Thank’s to this implementation, we can animate the faces of metahumans.
+&lt;img src=&quot;/Portfolio//img/portfolio/fw1.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/fw3.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;face-custom-tool&quot;&gt;Face Custom Tool&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this section we’ll look at a tool that allows you to customise a metahuman’s face. It will be used to offer more diversity in the profiles, which will make it easier for the artificial intelligence to learn. In fact, this tool will make it possible to have more different faces representing emotions (via FaceWare).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is done entirely using blueprints, so we can change the colour of the eyes, the texture of the skin, the assets of the hair, beard and eyebrows, as well as the colour of the latter. As you can see from the following images.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Example of different faces:
+&lt;img src=&quot;/Portfolio//img/portfolio/f1.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/f2.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/f3.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/f4.png&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</content>
 
       
@@ -500,7 +507,7 @@ The goal is to create a tool on UnrealEngine5 to create videos of metahumans acc
       
 
       
-        <summary type="html">MetaHuman’s project This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport. This challenge involves the generation of a large dataset in photorealistic video format usable by AI. The goal is to create a tool on UnrealEngine5 to create videos of metahumans according to these criteria: Realistic environment Flexible and understandable facial animation Changing scenery Tool generating metaHumans animations</summary>
+        <summary type="html">MetaHuman’s project This project in coordination with the LIARA research team is supervised by Yannick Francillet. It includes a team of three people. @Baptiste Krecina : Portfolio @Jade Cothenet : Portfolio The goal is to be able to train an AI to detect bad or good placement of an elderly character practicing a sport. This challenge involves the generation of a large dataset in photorealistic video format usable by AI. The goal is to create a tool on UnrealEngine5 to create videos of metahumans according to these criteria: Realistic environment Flexible and understandable facial animation Changing scenery Tool generating metaHumans animations</summary>
       
 
       
@@ -916,15 +923,56 @@ We therefore had to implement a spatial data structure to speed up the calculati
       <published>2020-11-01T00:00:00-04:00</published>
       <updated>2020-11-01T00:00:00-04:00</updated>
       <id>http://localhost:4000/Portfolio/Aux-Fronti%C3%A8res-des-Possibles</id>
-      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step2.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step3.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step1.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step4.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step5.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step6.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step7.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step8.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
-&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step9.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/i_bd_step1.jpg &quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/comic1.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/comic2.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/comic3.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/comic4.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/comic5.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="ArtWork" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Bic Illustration</title>
+      <link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" title="Bic Illustration" />
+      <published>2017-05-22T00:00:00-04:00</published>
+      <updated>2017-05-22T00:00:00-04:00</updated>
+      <id>http://localhost:4000/Portfolio/Bic-illustration</id>
+      <content type="html" xml:base="http://localhost:4000/Portfolio/">&lt;p&gt;&lt;img src=&quot;/Portfolio//img/portfolio/i1.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i2.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i3.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i4.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i5.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i6.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i7.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i8.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i9.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i10.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;
+&lt;img src=&quot;/Portfolio//img/portfolio/i11.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Online Training&quot; /&gt;&lt;/p&gt;</content>
 
       
       

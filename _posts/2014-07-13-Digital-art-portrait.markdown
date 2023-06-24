@@ -9,4 +9,5 @@ client: Image Processing
 category: ArtWork
 description: Creation de portrait sous format digital
 ---
-<img src="{{ site.baseurl }}/img/portfolio/i-portrait.png" class="img-responsive" alt="Online Training">
+<img src="{{ site.baseurl }}/img/portfolio/p1.jpg" class="img-responsive" alt="Online Training">
+<img src="{{ site.baseurl }}/img/portfolio/p2.jpg" class="img-responsive" alt="Online Training">
